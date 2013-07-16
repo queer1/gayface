@@ -61,7 +61,7 @@ Gayface::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-#root :to => 'gayface_users#index'
+#root :to => '/gayface_users'
 
   # See how all your routes lay out with "rake routes"
 

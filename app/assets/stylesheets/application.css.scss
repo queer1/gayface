@@ -1,18 +1,19 @@
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 /*
  *= require jquery.ui.all
  */
 
 body {
   background: #DDD;
-  font-family: Verdana;
+  font-family: 'Josefin Sans';
   font-size: 13px;
   line-height: 18px;
 }
 
 #body_content, #side_body_content {
   float: left;
-  width: 45%;
+  width: 100%;
   background: white;
   color: #333;
   padding: 20px;
