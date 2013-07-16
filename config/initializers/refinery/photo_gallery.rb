@@ -14,7 +14,7 @@ Refinery::PhotoGallery.configure do |config|
   # config.plupload_locale = "en"
 
   # Case insensitive extension white list for carrierwave
-  #  config.extension_white_list = ["jpg", "jpeg", "gif", "png", "bmp", "tiff"]
+config.extension_white_list = ["jpg", "jpeg", "gif", "png", "bmp", "tiff"]
 
   # Directory where uploaded photos will be stored. Absolute adress to Rails root
   # config.photo_gallery_dir = "/system/refinery/photo_gallery"
@@ -23,9 +23,9 @@ Refinery::PhotoGallery.configure do |config|
   # config.delete_uploaded_file = true
 
   # Thumbs dimensions in pixels. E.g: [950,950] for width:950, height: 950
-  # config.album_dimensions = [140, 105]
-  # config.preview_dimensions = [210, 210]
-  # config.single_dimensions = [900, 900]
+config.album_dimensions = [140, 105]
+config.preview_dimensions = [210, 210]
+config.single_dimensions = [900, 900]
 
   # config.collections_per_page = 10
   # config.albums_per_page = 10
