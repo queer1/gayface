@@ -36,20 +36,6 @@ ActiveRecord::Schema.define(:version => 20130716035122) do
     t.datetime "updated_at",       :null => false
   end
 
-  create_table "refinery_humen", :force => true do |t|
-    t.string   "first_name"
-    t.string   "last_name"
-    t.integer  "gayface_photo_id"
-    t.string   "city"
-    t.string   "state"
-    t.string   "sexual_id"
-    t.string   "occupation"
-    t.text     "blurb"
-    t.integer  "position"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-  end
-
   create_table "refinery_image_page_translations", :force => true do |t|
     t.integer  "refinery_image_page_id"
     t.string   "locale"
