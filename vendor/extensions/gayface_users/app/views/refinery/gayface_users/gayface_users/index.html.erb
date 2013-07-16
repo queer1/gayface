@@ -1,12 +1,16 @@
 <% content_for :body do %>
-  <ul id="gayface_users">
-    <% @gayface_users.each do |gayface_user| %>
-      <li>
-        <%= link_to gayface_user.first_name, refinery.gayface_users_gayface_user_path(gayface_user) %>
-        <%= link_to gayface_user.last_name, refinery.gayface_users_gayface_user_path(gayface_user) %>
-      </li>
-    <% end %>
-  </ul>
+
+<!-- PHOTO GALLERY -->
+<ul id="gayface_users">
+  <% @gayface_users.each do |gayface_user| %>
+  <%= image_fu (gayface_user.gayface_photo) %>
+    <li>
+      <%= link_to gayface_user.first_name, refinery.gayface_users_gayface_user_path(gayface_user) %>
+      <%= link_to gayface_user.last_name.chars.first, refinery.gayface_users_gayface_user_path(gayface_user) %>
+    </li>
+  <% end %>
+</ul>
 <% end %>
+
 
 <%= render '/refinery/content_page' %>
