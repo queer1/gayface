@@ -14,3 +14,6 @@ Refinery::PhotoGallery::Engine.load_seed
 
 # Added by Refinery CMS Gayface Users extension
 Refinery::GayfaceUsers::Engine.load_seed
+
+# Added by Refinery CMS Locations extension
+Refinery::Locations::Engine.load_seed

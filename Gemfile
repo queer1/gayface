@@ -55,3 +55,5 @@ gem 'refinerycms-photo-gallery', '~> 0.1.0'
 
 gem 'refinerycms-gayface_users', :path => 'vendor/extensions'
 
+
+gem 'refinerycms-locations', :path => 'vendor/extensions'

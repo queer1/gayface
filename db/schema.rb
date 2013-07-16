@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130716035122) do
+ActiveRecord::Schema.define(:version => 20130716101150) do
 
   create_table "refinery_album_pages", :force => true do |t|
     t.integer "album_id"
@@ -68,6 +68,15 @@ ActiveRecord::Schema.define(:version => 20130716035122) do
     t.string   "image_ext"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
+  end
+
+  create_table "refinery_locations", :force => true do |t|
+    t.string   "name"
+    t.integer  "latitude"
+    t.integer  "longitude"
+    t.integer  "position"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "refinery_page_part_translations", :force => true do |t|

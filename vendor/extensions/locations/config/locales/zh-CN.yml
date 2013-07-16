@@ -1,0 +1,31 @@
+zh-CN:
+  refinery:
+    plugins:
+      locations:
+        title: Locations
+    locations:
+      admin:
+        locations:
+          actions:
+            create_new: 建立新的 Location
+            reorder: 对 Locations 重新排序
+            reorder_done: 对 Locations 的重新排序结束
+          records:
+            title: Locations
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Locations yet. Click "Add New Location" to add your first location.
+            no_items_yet: 目前没有 Locations . 点击 "Add New Location" 创建一个location.
+          location:
+            view_live_html: 查看 location 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 location
+            delete: 永久删除 location
+      locations:
+        show:
+          other: 其他 Locations
+  activerecord:
+    attributes:
+      'refinery/locations/location':
+        name: Name
+        latitude: Latitude
+        longitude: Longitude

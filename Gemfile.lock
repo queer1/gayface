@@ -3,6 +3,8 @@ PATH
   specs:
     refinerycms-gayface_users (1.0)
       refinerycms-core (~> 2.0.10)
+    refinerycms-locations (1.0)
+      refinerycms-core (~> 2.0.10)
 
 GEM
   remote: https://rubygems.org/
@@ -213,6 +215,7 @@ DEPENDENCIES
   refinerycms (~> 2.0.3)
   refinerycms-gayface_users!
   refinerycms-i18n (~> 2.0.0)
+  refinerycms-locations!
   refinerycms-page-images (~> 2.0.0)
   refinerycms-photo-gallery (~> 0.1.0)
   sass-rails (~> 3.2.3)

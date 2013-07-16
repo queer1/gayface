@@ -1,0 +1,29 @@
+sk:
+  refinery:
+    plugins:
+      locations:
+        title: Locations
+    locations:
+      admin:
+        locations:
+          actions:
+            create_new: Pridať Location
+            reorder: Preusporiadať Locations
+            reorder_done: Koniec radenia Locations
+          records:
+            title: Locations
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Locations. Kliknite na "Pridať Location" pre pridanie prvého location.
+          location:
+            view_live_html: Zobraziť náhľad location<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť location
+            delete: Zmazať location
+      locations:
+        show:
+          other: Daľšie Locations
+  activerecord:
+    attributes:
+      'refinery/locations/location':
+        name: Name
+        latitude: Latitude
+        longitude: Longitude
