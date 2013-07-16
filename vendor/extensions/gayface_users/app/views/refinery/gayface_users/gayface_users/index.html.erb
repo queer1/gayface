@@ -3,6 +3,7 @@
     <% @gayface_users.each do |gayface_user| %>
       <li>
         <%= link_to gayface_user.first_name, refinery.gayface_users_gayface_user_path(gayface_user) %>
+        <%= link_to gayface_user.last_name, refinery.gayface_users_gayface_user_path(gayface_user) %>
       </li>
     <% end %>
   </ul>

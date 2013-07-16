@@ -1,50 +1,40 @@
-<% content_for :body_content_title do %>
-  <%= @gayface_user.first_name %>
-<% end %>
+<%# content_for :body_content_title do %>
+  <%#= @gayface_user.first_name %>
+  <%#= @gayface_user.last_name.chars.first %>
+<%# end %>
 
+
+<!-- BODY CONTENT -->
 <% content_for :body do %>
+
+<!-- GAYFACE PHOTO   -->
   <section>
-    <h1>First Name</h1>
-    <p>
-      <%=raw @gayface_user.first_name %>
-    </p>
-  </section>
-  <section>
-    <h1>Last Name</h1>
-    <p>
-      <%=raw @gayface_user.last_name %>
-    </p>
-  </section>
-  <section>
-    <h1>Gayface Photo</h1>
     <p>
       <%= image_fu @gayface_user.gayface_photo, nil %>
     </p>
   </section>
+
+<!-- FIRST NAME WITH INITIAL OF LAST NAME -->
   <section>
-    <h1>City</h1>
-    <p>
-      <%=raw @gayface_user.city %>
-    </p>
-  </section>
+    <h1> <%=raw @gayface_user.first_name %> <%=raw @gayface_user.last_name.chars.first %> <h1>
+  </section>  
+
+<!-- LOCATION -->
   <section>
-    <h1>State</h1>
-    <p>
-      <%=raw @gayface_user.state %>
-    </p>
+    <h1> <%=raw @gayface_user.city %>, <%=raw @gayface_user.state %> </h1>
   </section>
+
+<!-- SEXUAL IDENTIFICATION -->
   <section>
-    <h1>Sexual</h1>
-    <p>
-      <%=raw @gayface_user.sexual_id %>
-    </p>
+    <h1>Identifies As: <%=raw @gayface_user.sexual_id %> </h1>
   </section>
+
+<!-- OCCUPATION   -->
   <section>
-    <h1>Occupation</h1>
-    <p>
-      <%=raw @gayface_user.occupation %>
-    </p>
+    <h1>Occupation: <%=raw @gayface_user.occupation %></h1>
   </section>
+
+<!-- BLURB   -->
   <section>
     <h1>Blurb</h1>
     <p>

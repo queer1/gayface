@@ -1,5 +1,6 @@
 module Refinery
   module GayfaceUsers
+   
     class GayfaceUsersController < ::ApplicationController
 
       before_filter :find_all_gayface_users
