@@ -1,0 +1,34 @@
+fr:
+  refinery:
+    plugins:
+      users:
+        title: Users
+    users:
+      admin:
+        users:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) User
+            reorder: Réordonner les Users
+            reorder_done: Fin de réordonnancement des Users
+          records:
+            title: Users
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) User. Cliquer sur "Créer un(e) nouve(au/l/lle) User" pour créer votre premi(er/ère) user.'
+          user:
+            view_live_html: Voir ce(t/tte) user <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) user
+            delete: Supprimer définitivement ce(t/tte) user
+      users:
+        show:
+          other: Autres Users
+  activerecord:
+    attributes:
+      'refinery/users/user':
+        first_name: First Name
+        last_name: Last Name
+        gayface_photo: Gayface Photo
+        city: City
+        state: State
+        sexual_id: Sexual
+        occupation: Occupation
+        blurb: Blurb

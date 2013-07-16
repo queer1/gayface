@@ -1,0 +1,36 @@
+zh-CN:
+  refinery:
+    plugins:
+      users:
+        title: Users
+    users:
+      admin:
+        users:
+          actions:
+            create_new: 建立新的 User
+            reorder: 对 Users 重新排序
+            reorder_done: 对 Users 的重新排序结束
+          records:
+            title: Users
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Users yet. Click "Add New User" to add your first user.
+            no_items_yet: 目前没有 Users . 点击 "Add New User" 创建一个user.
+          user:
+            view_live_html: 查看 user 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 user
+            delete: 永久删除 user
+      users:
+        show:
+          other: 其他 Users
+  activerecord:
+    attributes:
+      'refinery/users/user':
+        first_name: First Name
+        last_name: Last Name
+        gayface_photo: Gayface Photo
+        city: City
+        state: State
+        sexual_id: Sexual
+        occupation: Occupation
+        blurb: Blurb

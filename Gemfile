@@ -50,3 +50,5 @@ gem 'refinerycms-i18n', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
 gem 'refinerycms-page-images', '~> 2.0.0'
 gem 'refinerycms-photo-gallery', '~> 0.1.0'
+
+gem 'refinerycms-gayface_users', :path => 'vendor/extensions'

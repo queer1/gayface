@@ -1,0 +1,35 @@
+es:
+  refinery:
+    plugins:
+      users:
+        title: Users
+#        article: masculino/femenino
+    users:
+      admin:
+        users:
+          actions:
+            create_new: Crear nuevo user
+            reorder: Reordenar users
+            reorder_done: Reordenación de users completada
+          records:
+            title: Users
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay users todavía. Pulsa en "Crear nuevo User" para crear tu primer user.
+          user:
+            view_live_html: Ver este user como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este user
+            delete: Borrar este user para siempre
+      users:
+        show:
+          other: Otros users
+  activerecord:
+    attributes:
+      'refinery/users/user':
+        first_name: First Name
+        last_name: Last Name
+        gayface_photo: Gayface Photo
+        city: City
+        state: State
+        sexual_id: Sexual
+        occupation: Occupation
+        blurb: Blurb

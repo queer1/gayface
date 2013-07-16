@@ -1,0 +1,25 @@
+<ul>
+  <% if ::Refinery::Users::Admin::UsersController.searchable? %>
+    <li>
+      <%= render '/refinery/admin/search', :url => refinery.users_admin_users_path %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), refinery.new_users_admin_user_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? && ::Refinery::Users::Admin::UsersController.sortable? && ::Refinery::Users::User.any? %>
+  <li>
+    <%= link_to t('.reorder', :what => "Users"),
+                 refinery.users_admin_users_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Users"),
+                 refinery.users_admin_users_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

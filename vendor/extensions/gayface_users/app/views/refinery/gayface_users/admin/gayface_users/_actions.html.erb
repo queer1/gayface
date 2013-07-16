@@ -1,0 +1,25 @@
+<ul>
+  <% if ::Refinery::GayfaceUsers::Admin::GayfaceUsersController.searchable? %>
+    <li>
+      <%= render '/refinery/admin/search', :url => refinery.gayface_users_admin_gayface_users_path %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), refinery.new_gayface_users_admin_gayface_user_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? && ::Refinery::GayfaceUsers::Admin::GayfaceUsersController.sortable? && ::Refinery::GayfaceUsers::GayfaceUser.any? %>
+  <li>
+    <%= link_to t('.reorder', :what => "Gayface Users"),
+                 refinery.gayface_users_admin_gayface_users_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Gayface Users"),
+                 refinery.gayface_users_admin_gayface_users_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

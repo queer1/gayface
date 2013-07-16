@@ -1,0 +1,34 @@
+fr:
+  refinery:
+    plugins:
+      gayface_users:
+        title: Gayface Users
+    gayface_users:
+      admin:
+        gayface_users:
+          actions:
+            create_new: Créer un(e) nouve(au/l/lle) Gayface User
+            reorder: Réordonner les Gayface Users
+            reorder_done: Fin de réordonnancement des Gayface Users
+          records:
+            title: Gayface Users
+            sorry_no_results: "Désolé ! Aucun résultat."
+            no_items_yet: 'Il n''y a actuellement aucun(e) Gayface User. Cliquer sur "Créer un(e) nouve(au/l/lle) Gayface User" pour créer votre premi(er/ère) gayface user.'
+          gayface_user:
+            view_live_html: Voir ce(t/tte) gayface user <br/><em>(Ouvre une nouvelle fenêtre)</em>
+            edit: Modifier ce(t/tte) gayface user
+            delete: Supprimer définitivement ce(t/tte) gayface user
+      gayface_users:
+        show:
+          other: Autres Gayface Users
+  activerecord:
+    attributes:
+      'refinery/gayface_users/gayface_user':
+        first_name: First Name
+        last_name: Last Name
+        gayface_photo: Gayface Photo
+        city: City
+        state: State
+        sexual_id: Sexual
+        occupation: Occupation
+        blurb: Blurb

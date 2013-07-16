@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130716030852) do
+ActiveRecord::Schema.define(:version => 20130716035122) do
 
   create_table "refinery_album_pages", :force => true do |t|
     t.integer "album_id"
@@ -21,6 +21,34 @@ ActiveRecord::Schema.define(:version => 20130716030852) do
 
   add_index "refinery_album_pages", ["album_id"], :name => "index_refinery_album_pages_on_album_id"
   add_index "refinery_album_pages", ["page_id"], :name => "index_refinery_album_pages_on_page_id"
+
+  create_table "refinery_gayface_users", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.integer  "gayface_photo_id"
+    t.string   "city"
+    t.string   "state"
+    t.string   "sexual_id"
+    t.string   "occupation"
+    t.text     "blurb"
+    t.integer  "position"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  create_table "refinery_humen", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.integer  "gayface_photo_id"
+    t.string   "city"
+    t.string   "state"
+    t.string   "sexual_id"
+    t.string   "occupation"
+    t.text     "blurb"
+    t.integer  "position"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
 
   create_table "refinery_image_page_translations", :force => true do |t|
     t.integer  "refinery_image_page_id"

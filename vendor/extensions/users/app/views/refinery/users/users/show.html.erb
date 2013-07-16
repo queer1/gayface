@@ -1,0 +1,69 @@
+<% content_for :body_content_title do %>
+  <%= @user.first_name %>
+<% end %>
+
+<% content_for :body do %>
+  <section>
+    <h1>First Name</h1>
+    <p>
+      <%=raw @user.first_name %>
+    </p>
+  </section>
+  <section>
+    <h1>Last Name</h1>
+    <p>
+      <%=raw @user.last_name %>
+    </p>
+  </section>
+  <section>
+    <h1>Gayface Photo</h1>
+    <p>
+      <%= image_fu @user.gayface_photo, nil %>
+    </p>
+  </section>
+  <section>
+    <h1>City</h1>
+    <p>
+      <%=raw @user.city %>
+    </p>
+  </section>
+  <section>
+    <h1>State</h1>
+    <p>
+      <%=raw @user.state %>
+    </p>
+  </section>
+  <section>
+    <h1>Sexual</h1>
+    <p>
+      <%=raw @user.sexual_id %>
+    </p>
+  </section>
+  <section>
+    <h1>Occupation</h1>
+    <p>
+      <%=raw @user.occupation %>
+    </p>
+  </section>
+  <section>
+    <h1>Blurb</h1>
+    <p>
+      <%=raw @user.blurb %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :side_body do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="users">
+      <% @users.each do |user| %>
+        <li>
+          <%= link_to user.first_name, refinery.users_user_path(user) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render '/refinery/content_page' %>

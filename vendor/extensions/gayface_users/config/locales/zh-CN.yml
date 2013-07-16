@@ -1,0 +1,36 @@
+zh-CN:
+  refinery:
+    plugins:
+      gayface_users:
+        title: Gayface Users
+    gayface_users:
+      admin:
+        gayface_users:
+          actions:
+            create_new: 建立新的 Gayface User
+            reorder: 对 Gayface Users 重新排序
+            reorder_done: 对 Gayface Users 的重新排序结束
+          records:
+            title: Gayface Users
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Gayface Users yet. Click "Add New Gayface User" to add your first gayface user.
+            no_items_yet: 目前没有 Gayface Users . 点击 "Add New Gayface User" 创建一个gayface user.
+          gayface_user:
+            view_live_html: 查看 gayface user 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 gayface user
+            delete: 永久删除 gayface user
+      gayface_users:
+        show:
+          other: 其他 Gayface Users
+  activerecord:
+    attributes:
+      'refinery/gayface_users/gayface_user':
+        first_name: First Name
+        last_name: Last Name
+        gayface_photo: Gayface Photo
+        city: City
+        state: State
+        sexual_id: Sexual
+        occupation: Occupation
+        blurb: Blurb

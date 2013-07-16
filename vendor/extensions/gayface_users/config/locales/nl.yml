@@ -1,0 +1,34 @@
+nl:
+  refinery:
+    plugins:
+      gayface_users:
+        title: Gayface Users
+    gayface_users:
+      admin:
+        gayface_users:
+          actions:
+            create_new: Maak een nieuwe Gayface User
+            reorder: Wijzig de volgorde van de Gayface Users
+            reorder_done: Klaar met het wijzingen van de volgorde van de Gayface Users
+          records:
+            title: Gayface Users
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Gayface Users. Druk op 'Maak een nieuwe Gayface User' om de eerste aan te maken.
+          gayface_user:
+            view_live_html: Bekijk deze gayface user op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze gayface user
+            delete: Verwijder deze gayface user voor eeuwig
+      gayface_users:
+        show:
+          other: Andere Gayface Users
+  activerecord:
+    attributes:
+      'refinery/gayface_users/gayface_user':
+        first_name: First Name
+        last_name: Last Name
+        gayface_photo: Gayface Photo
+        city: City
+        state: State
+        sexual_id: Sexual
+        occupation: Occupation
+        blurb: Blurb

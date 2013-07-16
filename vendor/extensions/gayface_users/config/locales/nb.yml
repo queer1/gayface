@@ -1,0 +1,34 @@
+nb:
+  refinery:
+    plugins:
+      gayface_users:
+        title: Gayface Users
+    gayface_users:
+      admin:
+        gayface_users:
+          actions:
+            create_new: Lag en ny Gayface User
+            reorder: Endre rekkefølgen på Gayface Users
+            reorder_done: Ferdig å endre rekkefølgen Gayface Users
+          records:
+            title: Gayface Users
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Gayface Users enda. Klikk på "Lag en ny Gayface User" for å legge til din første gayface user.
+          gayface_user:
+            view_live_html: Vis hvordan denne gayface user ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne gayface user
+            delete: Fjern denne gayface user permanent
+      gayface_users:
+        show:
+          other: Andre Gayface Users
+  activerecord:
+    attributes:
+      'refinery/gayface_users/gayface_user':
+        first_name: First Name
+        last_name: Last Name
+        gayface_photo: Gayface Photo
+        city: City
+        state: State
+        sexual_id: Sexual
+        occupation: Occupation
+        blurb: Blurb
