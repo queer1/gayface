@@ -34,4 +34,6 @@
 //= require retina.js
 //= require slider.js
 //= require twitter.js
+//= js/jquery.vmap.js
+//= js/jquery.vmap.usa.js
 
