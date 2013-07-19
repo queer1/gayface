@@ -62,6 +62,7 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    flexslider (2.0.2)
     friendly_id (4.0.9)
     globalize3 (0.3.0)
       activemodel (>= 3.0.0)
@@ -188,6 +189,11 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     truncate_html (0.5.5)
+    twitter-bootstrap-rails (2.2.7)
+      actionpack (>= 3.1)
+      execjs
+      rails (>= 3.1)
+      railties (>= 3.1)
     tzinfo (0.3.37)
     uglifier (2.1.2)
       execjs (>= 0.3.0)
@@ -201,6 +207,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  flexslider (~> 2.0.2)
   jquery-rails (~> 2.0.0)
   rails (= 3.2.13)
   refinerycms (~> 2.0.3)
@@ -210,4 +217,5 @@ DEPENDENCIES
   refinerycms-photo-gallery (~> 0.1.0)
   sass-rails (~> 3.2.3)
   sqlite3
+  twitter-bootstrap-rails
   uglifier (>= 1.0.3)

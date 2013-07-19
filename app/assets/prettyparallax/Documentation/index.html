@@ -1,0 +1,2218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Parallax707-Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.html">Parallax707</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active">
+                <a href="./index.html">Parallax707 Overview</a>
+              </li>
+              <li class="">
+                <a href="layouts.html">Layouts</a>
+              </li>
+              
+              <li class="">
+                <a href="./base-css.html">Base CSS</a>
+              </li>
+              <li class="">
+                <a href="./components.html">Components</a>
+              </li>
+              <li class="">
+                <a href="./javascript.html">JavaScript</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1>Parallax707</h1>
+    <p>Welcome to Parallax707.</p>
+  </div>
+</header>
+
+
+  <div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav">
+<li><a href="#overview"><i class="icon-chevron-right"></i> Template overview</a></li>
+<li><a href="#started"><i class="icon-chevron-right"></i> Get started</a></li>
+<li><a href="#sliders"><i class="icon-chevron-right"></i> Working With Sliders</a></li>
+<li><a href="#JavaScript"><i class="icon-chevron-right"></i>JavaScript initialization</a></li>
+<li><a href="layouts.html"><i class="icon-chevron-right"></i> Column Layouts and Headers</a></li>
+<li><a href="components.html#alerts"><i class="icon-chevron-right"></i>Alerts</a></li>
+<li><a href="#icons"><i class="icon-chevron-right"></i> Icons by Glyphicons</a></li>
+        </ul>
+      </div>
+      <div class="span9">
+
+
+
+        <!-- Overview
+        ================================================== -->
+        <section id="overview">
+          <div class="page-header">
+            <h1>Overview</h1>
+          </div>
+          
+<p>Hello, firstly I would like to thank you for purchasing " Parallax707 - HTML Template ".</p>
+<p>If you have any questions that are beyond the scope of this help file, please feel free to email. </p>
+<p>Creator: Coyier</p>
+<p>Contact:<a href="mailto:ahmedeabbas@yahoo.com"> ahmedeabbas@yahoo.com</a></p>
+<p>Created On: 26/02/2013</p>
+
+        </section>
+
+
+
+        <!-- Get started
+        ================================================== -->
+        <section id="started">
+          <div class="page-header">
+            <h1>Get started</h1>
+          </div>
+          <div class="hero-unit">
+              <h4>Installation:</h4>
+              <p>Parallax707 is HTML template so there's no really "installation" required just unzip the main file you've downloaded from <a href="https://wrapbootstrap.com" target="_blank">wrapbootstrap</a> and after unziping you have your all template ready to be used.</p>
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Setting Up The Grid:</h4>
+              <p>Before starting to work deeper with this template, you'll need to know how to use template's grid, it's simple and easy to use. Parallax707 is being build using one of the most popular Framwork, Twitter bootstrap, which means your site container is 12-column grids wide.To make it work without problem you be using columns for everything . 	</p>
+          </div>
+          
+          <div class="hero-unit">
+            <h4>Working With Navigation:</h4>
+              <p>I have used Bootstrap menu with jQuery improved dropdown menu but the menu itself is easy to edit. Its structure base on a nested unorederd lists structure. <a href="components.html#navbar">More Details</a> </p>
+              <p>Your code should look like the following. </p>
+              <pre>
+              
+          
+          &lt;div id="navbar" class="navbar navbar-static-top"&gt;
+            &lt;div class="navbar-inner"&gt;
+                &lt;div class="container"&gt;
+                    &lt;a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"&gt; &lt;span class="icon-bar"&gt;&lt;/span&gt;
+ &lt;span class="icon-bar"&gt;&lt;/span&gt;
+ &lt;span class="icon-bar"&gt;&lt;/span&gt;
+
+                    &lt;/a&gt;
+                    &lt;a class="brand" href="index.html"&gt;Parallax&lt;span&gt;707&lt;/span&gt;
+                    &lt;/a&gt;
+                    &lt;div class="nav-collapse collapse pull-right"&gt;
+                        &lt;ul class="nav"&gt;
+                            &lt;li class="active dropdown"&gt;
+&lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&gt;Home &lt;b class="caret"&gt;&lt;/b&gt;&lt;/a&gt;
+							&lt;ul class="dropdown-menu"&gt;
+                            		&lt;li&gt;
+                                        &lt;a href="#welcome"&gt;Home Style 1&lt;/a&gt;
+                                    &lt;/li&gt;
+                                    &lt;li&gt;
+                                        &lt;a href="3d_slider.html"&gt;Home Style 2&lt;/a&gt;
+                                    &lt;/li&gt;                                     
+                                     &lt;li&gt;
+                                        &lt;a href="layer_slider.html"&gt;Home Style 3&lt;/a&gt;
+                                    &lt;/li&gt;
+                                     &lt;li&gt;
+                                        &lt;a href="nivo_slider.html"&gt;Home Style 4&lt;/a&gt;
+                                    &lt;/li&gt; 
+                                     &lt;li&gt;
+                                        &lt;a href="parallax_slider.html"&gt;Home Style 5&lt;/a&gt;
+                                    &lt;/li&gt;
+                                    &lt;li&gt;
+                                        &lt;a href="portfolio_slider.html"&gt;Home Style 6&lt;/a&gt;
+                                    &lt;/li&gt;                      
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#About"&gt;About&lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#Services"&gt;Services&lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#Portfolio"&gt;Portfolio&lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#LargeSlider"&gt;Gallery&lt;/a&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;a href="#Contact"&gt;Contact&lt;/a&gt;
+                            &lt;/li&gt;                            
+                            &lt;li class="dropdown"&gt;
+ &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&gt; External Pages &lt;b class="caret"&gt;&lt;/b&gt;&lt;/a&gt;
+ 								&lt;ul class="dropdown-menu"&gt; &lt;li&gt;&lt;a href="about_us.html"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href="our_services.html"&gt;Our Services&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href="portfolio_page.html"&gt;Our Portfolio&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href="gallery.html"&gt;Gallery&lt;/a&gt;&lt;/li&gt;
+                                     &lt;li&gt;&lt;a href="pricing.html"&gt;Pricing Tables&lt;/a&gt;&lt;/li&gt;
+                                      &lt;li&gt;&lt;a href="icons.html"&gt;Icons&lt;/a&gt;&lt;/li&gt;
+                              &lt;/ul&gt;
+                             &lt;/li&gt;                                 
+                                           
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                    &lt;!--/.nav-collapse --&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+          
+          
+          
+              </pre>
+              
+              <p>Navigation CSS: </p>
+              
+              <pre>
+              .navbar-fixed-top {
+  			  top: 0;
+				}                
+                .navbar-fixed-top,
+                .navbar-fixed-bottom {
+                    position: fixed;
+                    right: 0;
+                    left: 0;
+                    z-index: 1030;
+                    margin-bottom: 0;
+                }
+                .navbar-inner:after {
+                    clear: both;
+                }
+                .navbar-inner:before,
+                .navbar-inner:after {
+                    display: table;
+                    content: "";
+                    line-height: 0;
+                }
+                .navbar-fixed-top .navbar-inner,
+                .navbar-static-top .navbar-inner {
+                    -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.3);
+                    -moz-box-shadow: 0 1px 10px rgba(0,0,0,.3);
+                    box-shadow: 0 1px 10px rgba(0,0,0,.3);
+                }
+                .navbar-fixed-top .navbar-inner,
+                .navbar-fixed-bottom .navbar-inner {
+                    padding-left: 0;
+                    padding-right: 0;
+                    -webkit-border-radius: 0;
+                    -moz-border-radius: 0;
+                    border-radius: 0;
+                }
+                .navbar .nav {
+                display: block;
+                float: left;
+                left: 0;
+                margin: 0 10px 0 0;
+                position: relative;
+            }
+            .navbar .nav > li {
+              float: left;
+            }
+            .navbar .nav > li {
+                float: left;
+            }
+            
+            .navbar .nav > li > a {
+                color: #777777;
+                float: none;
+                font-size: 20px;
+                font-weight: lighter;
+                padding: 30px 15px;
+                text-decoration: none;
+                text-transform: uppercase;
+                text-shadow: 1px 1px 5px #1f1f1f;
+                filter: dropshadow(color=#1f1f1f, offx=1, offy=1);
+            }
+            
+            .navbar .nav .dropdown-toggle .caret {
+                margin-top: 8px;
+            }
+            
+            .navbar .nav > li > a:focus,
+            .navbar .nav > li > a:hover {
+                background-color: transparent;
+                color: #F96E5B !important;
+                -webkit-transition: background 500ms ease-out;
+                -moz-transition: background 500ms ease-out;
+                -ms-transition: background 500ms ease-out;
+                -o-transition: background 500ms ease-out;
+                transition: background 500ms ease-out;
+                text-decoration: none;
+            }
+            
+            .navbar .nav > .active > a,
+            .navbar .nav > .active > a:hover,
+            .navbar .nav > .active > a:focus {
+                color: #F96E5B !important;
+                text-decoration: none;
+                -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.3);
+              -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.3);
+              box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.3);
+            }
+            
+            .navbar .btn-navbar {
+                display: none;
+                float: right;
+                padding: 7px 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+                color: #ffffff;
+                text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+                background-color: #333333;
+                border-color: #e5e5e5 #e5e5e5 #bfbfbf;
+                border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+                *background-color: #e5e5e5;
+              /* Darken IE7 buttons by default so they stand out more given they won't have borders */     			filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+              -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
+              -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
+              box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075);
+            }
+            .navbar .btn-navbar:hover,
+            .navbar .btn-navbar:active,
+            .navbar .btn-navbar.active,
+            .navbar .btn-navbar.disabled,
+            .navbar .btn-navbar[disabled] {
+              color: #ffffff;
+              background-color: #3B3A3A;
+              *background-color: #3B3A3A;
+            }
+            .navbar .btn-navbar:active,
+            .navbar .btn-navbar.active {
+              background-color: #cccccc \9;
+            }
+              
+              </pre>
+          </div>
+
+        </section>
+
+
+
+        <!-- sliders
+        ================================================== -->
+        <section id="sliders">
+          <div class="page-header">
+            <h1> Working With Sliders</h1>
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Grid SlideShow</h4>
+              <p><img src="assets/img/BlurSlideShow.jpg" alt="Blur Slide Show"></p>
+              
+              <p>Your code should look like the following. </p>
+              
+               <pre>
+               
+               &lt;div id="welcome"&gt;
+                    &lt;div class="container-fluid clearfix" style="padding:0; overflow:hidden"&gt;
+                        
+&lt;div id="ib-main-wrapper" class="ib-main-wrapper"&gt;
+&lt;div class="ib-main"&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/1.jpg" data-largesrc="images/grid/large/1.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/2.jpg" data-largesrc="images/grid/large/2.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#" class="ib-content"&gt;
+&lt;div class="ib-teaser"&gt;&lt;h2&gt;Welcome &lt;span&gt;Parallax707&lt;/span&gt;&lt;/h2&gt;&lt;/div&gt;
+&lt;div class="ib-content-full"&gt;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/3.jpg" data-largesrc="images/grid/large/3.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/4.jpg" data-largesrc="images/grid/large/4.jpg" alt="image04"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/5.jpg" data-largesrc="images/grid/large/5.jpg" alt="image05"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/6.jpg" data-largesrc="images/grid/large/6.jpg" alt="image06"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/7.jpg" data-largesrc="images/grid/large/7.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/8.jpg" data-largesrc="images/grid/large/8.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/9.jpg" data-largesrc="images/grid/large/9.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/10.jpg" data-largesrc="images/grid/large/10.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/11.jpg" data-largesrc="images/grid/large/11.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#" class="ib-content"&gt;
+&lt;div class="ib-teaser"&gt;&lt;h2&gt;Parallax&lt;span&gt;Effect&lt;/span&gt;&lt;/h2&gt;&lt;/div&gt;
+&lt;div class="ib-content-full"&gt;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/12.jpg" data-largesrc="images/grid/large/12.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/13.jpg" data-largesrc="images/grid/large/13.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/14.jpg" data-largesrc="images/grid/large/14.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/15.jpg" data-largesrc="images/grid/large/15.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/16.jpg" data-largesrc="images/grid/large/16.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/17.jpg" data-largesrc="images/grid/large/17.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/18.jpg" data-largesrc="images/grid/large/18.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/19.jpg" data-largesrc="images/grid/large/19.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/20.jpg" data-largesrc="images/grid/large/20.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/21.jpg" data-largesrc="images/grid/large/21.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/22.jpg" data-largesrc="images/grid/large/22.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/23.jpg" data-largesrc="images/grid/large/23.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/24.jpg" data-largesrc="images/grid/large/24.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/25.jpg" data-largesrc="images/grid/large/25.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/26.jpg" data-largesrc="images/grid/large/26.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/27.jpg" data-largesrc="images/grid/large/27.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/1.jpg" data-largesrc="images/grid/large/1.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/2.jpg" data-largesrc="images/grid/large/2.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/3.jpg" data-largesrc="images/grid/large/3.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/4.jpg" data-largesrc="images/grid/large/4.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/5.jpg" data-largesrc="images/grid/large/5.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/6.jpg" data-largesrc="images/grid/large/6.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/7.jpg" data-largesrc="images/grid/large/7.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/8.jpg" data-largesrc="images/grid/large/8.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/9.jpg" data-largesrc="images/grid/large/9.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/10.jpg" data-largesrc="images/grid/large/10.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/11.jpg" data-largesrc="images/grid/large/11.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/12.jpg" data-largesrc="images/grid/large/12.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/13.jpg" data-largesrc="images/grid/large/13.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/14.jpg" data-largesrc="images/grid/large/14.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/15.jpg" data-largesrc="images/grid/large/15.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/16.jpg" data-largesrc="images/grid/large/16.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/17.jpg" data-largesrc="images/grid/large/17.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/18.jpg" data-largesrc="images/grid/large/18.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/19.jpg" data-largesrc="images/grid/large/19.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/20.jpg" data-largesrc="images/grid/large/20.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/21.jpg" data-largesrc="images/grid/large/21.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/22.jpg" data-largesrc="images/grid/large/22.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/23.jpg" data-largesrc="images/grid/large/23.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/24.jpg" data-largesrc="images/grid/large/24.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/25.jpg" data-largesrc="images/grid/large/25.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/26.jpg" data-largesrc="images/grid/large/26.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/27.jpg" data-largesrc="images/grid/large/27.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/1.jpg" data-largesrc="images/grid/large/1.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/2.jpg" data-largesrc="images/grid/large/2.jpg" alt="image03"/&gt;&lt;span&gt;Youth is full of pleasance&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/3.jpg" data-largesrc="images/grid/large/3.jpg" alt="image01"/&gt;&lt;span&gt;Crabbed Age and Youth&lt;/span&gt;&lt;/a&gt;
+&lt;a href="#"&gt;&lt;img src="images/grid/thumbs/4.jpg" data-largesrc="images/grid/large/4.jpg" alt="image02"/&gt;&lt;span&gt;Cannot live together&lt;/span&gt;&lt;/a&gt;
+&lt;div class="clr"&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;!-- ib-main --&gt;
+&lt;/div&gt;&lt;!-- ib-main-wrapper --&gt;
+                   &lt;/div&gt;
+                &lt;/div&gt;
+               
+               </pre>
+              
+               <p>Your CSS code in the File <a href="../css/grid.css">grid.css</a></p>
+              
+              
+              
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Lean Slider</h4>
+              <p><img src="assets/img/Lean Slider.jpg" alt="Lean Slider"></p>
+              
+              <p>Your code should look like the following. </p>
+              <pre>
+              
+               &lt; div class="slider-wrapper" &gt; 
+         &lt; div id="slider" &gt; 
+             &lt; div class="slide1" &gt; 
+                 &lt; img src="images/1.jpg" alt="" / &gt; 
+             &lt; /div &gt; 
+             &lt; div class="slide2" &gt; 
+                 &lt; img src="images/2.jpg" alt="" / &gt; 
+             &lt; /div &gt; 
+             &lt; div class="slide3" &gt; 
+                 &lt; img src="images/3.jpg" alt="" / &gt; 
+             &lt; /div &gt; 
+             &lt; div class="slide4" &gt; 
+                 &lt; img src="images/4.jpg" alt="" / &gt; 
+             &lt; /div &gt; 
+         &lt; /div &gt; 
+         &lt; div id="slider-direction-nav" &gt;  &lt; /div &gt; 
+         &lt; div id="slider-control-nav" &gt;  &lt; /div &gt; 
+     &lt; /div &gt; 
+              </pre>
+              
+                <p>Your CSS code. </p>
+              <pre>
+                .lean-slider {
+                    position: relative;
+                    *zoom: 1;
+                }
+                
+                .lean-slider:before,
+                .lean-slider:after {
+                    content: " ";
+                    display: table;
+                }
+                
+                .lean-slider:after {
+                    clear: both;
+                }
+                
+                .lean-slider-slide {
+                    float: left;
+                    width: 100%;
+                    margin-right: -100%;
+                    display: none;
+                }
+                
+                .lean-slider-slide.current {
+                    display: block;
+                }
+                
+                .slider-wrapper {
+                    position: relative;
+                    background: #fff url(../../images/loading.gif) no-repeat 50% 50%;
+                    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.4);
+                    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.4);
+                    box-shadow: 0 0 3px rgba(0,0,0,0.4);
+                    clear: both;
+                    margin: 25px 10px;
+                }
+                /*.lean-slider { overflow: hidden; }*/
+                .lean-slider-slide {
+                    display: block;
+                    position: relative;
+                    opacity: 0;
+                    -webkit-transition: opacity 0.6s linear;
+                    -moz-transition: opacity 0.6s linear;
+                    -ms-transition: opacity 0.6s linear;
+                    -o-transition: opacity 0.6s linear;
+                    transition: opacity 0.6s linear;
+                }
+                
+                .lean-slider-slide.current {
+                    opacity: 1;
+                }
+                
+                .lean-slider-slide img {
+                    display: block;
+                    width: 100%;
+                }
+                
+                #slider-direction-nav {
+                    position: absolute;
+                    left: 0;
+                    top: 47%;
+                    width: 100%;
+                    -webkit-transition: opacity 0.2s linear;
+                    -moz-transition: opacity 0.2s linear;
+                    -ms-transition: opacity 0.2s linear;
+                    -o-transition: opacity 0.2s linear;
+                    transition: opacity 0.2s linear;
+                    opacity: 0.2;
+                }
+                
+                .slider-wrapper:hover #slider-direction-nav {
+                    opacity: 1;
+                }
+                
+                #slider-direction-nav a {
+                    float: left;
+                    display: block;
+                    width: 26px;
+                    height: 37px;
+                    background: url(../../images/arrows.png) no-repeat 0 0;
+                    text-indent: -9999px;
+                }
+                
+                #slider-direction-nav .lean-slider-next {
+                    float: right;
+                    background-position: 100% 0;
+                }
+                
+                #slider-control-nav {
+                    position: absolute;
+                    left: 0;
+                    bottom: 10px;
+                    width: 100%;
+                    text-align: center;
+                    -webkit-transition: opacity 0.2s linear;
+                    -moz-transition: opacity 0.2s linear;
+                    -ms-transition: opacity 0.2s linear;
+                    -o-transition: opacity 0.2s linear;
+                    transition: opacity 0.2s linear;
+                    opacity: 0.2;
+                }
+                
+                .slider-wrapper:hover #slider-control-nav {
+                    opacity: 1;
+                }
+                
+                #slider-control-nav a {
+                    display: inline-block;
+                    width: 14px;
+                    height: 14px;
+                    background: url(../../images/bullets.png) no-repeat 0 0;
+                    text-indent: -9999px;
+                    margin: 0 3px;
+                    -webkit-transition: none;
+                    -moz-transition: none;
+                    -ms-transition: none;
+                    -o-transition: none;
+                    transition: none;
+                }
+                
+                #slider-control-nav a.active {
+                    background-position: 100% 0;
+                }
+                
+                /* Smartphones (portrait and landscape) ----------- */
+                @media only screen 
+                and (min-device-width : 320px) 
+                and (max-width : 480px) {
+                
+                    #slider-direction-nav,
+                    #slider-control-nav {
+                        opacity: 1;
+                    }
+                }
+                
+                /* iPads (portrait and landscape) ----------- */
+                @media only screen 
+                and (min-device-width : 768px) 
+                and (max-device-width : 1024px) {
+                    
+                    #slider-direction-nav,
+                    #slider-control-nav {
+                        opacity: 1;
+                    }
+                }
+              
+              </pre>
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Our Services Section with animation</h4>
+              <p><img src="assets/img/ServicesSection.jpg" alt="Services Section"></p>
+              
+              <p>Your code should look like the following. </p>
+              
+               <pre>
+               
+               &lt;div class="row-fluid"&gt;                
+                &lt;ul id="sti-menu" class="sti-menu clearfix"&gt;
+				&lt;li class="span3 clearfix" data-hovercolor="#49110D"&gt;
+					&lt;a href="#"&gt;
+						&lt;h2 data-type="mText" class="sti-item"&gt;Wordpress Development&lt;/h2&gt;
+						&lt;h3 data-type="sText" class="sti-item"&gt;Understanding visually&lt;/h3&gt;
+						&lt;span data-type="icon" class="sti-icon sti-icon-care sti-item"&gt;&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class="span3 clearfix" data-hovercolor="#49110D"&gt;
+					&lt;a href="#"&gt;
+						&lt;h2 data-type="mText" class="sti-item"&gt;Sophisticated Team&lt;/h2&gt;
+						&lt;h3 data-type="sText" class="sti-item"&gt;Professionals in action&lt;/h3&gt;
+						&lt;span data-type="icon" class="sti-icon sti-icon-alternative sti-item"&gt;&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class="span3 clearfix" data-hovercolor="#49110D"&gt;
+					&lt;a href="#"&gt;
+						&lt;h2 data-type="mText" class="sti-item"&gt;Web Site Design&lt;/h2&gt;
+						&lt;h3 data-type="sText" class="sti-item"&gt;Personalized to your needs&lt;/h3&gt;
+						&lt;span data-type="icon" class="sti-icon sti-icon-info sti-item"&gt;&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class="span3 clearfix" data-hovercolor="#49110D"&gt;
+					&lt;a href="#"&gt;
+						&lt;h2 data-type="mText" class="sti-item"&gt;Web Development&lt;/h2&gt;
+						&lt;h3 data-type="sText" class="sti-item"&gt;Advanced use of technology&lt;/h3&gt;
+						&lt;span data-type="icon" class="sti-icon sti-icon-family sti-item"&gt;&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class="span3 clearfix" data-hovercolor="#49110D" style="margin-left:0;"&gt;
+					&lt;a href="#"&gt;
+						&lt;h2 data-type="mText" class="sti-item"&gt;Corporate Identity&lt;/h2&gt;
+						&lt;h3 data-type="sText" class="sti-item"&gt;Lorem ipsum dolor&lt;/h3&gt;
+						&lt;span data-type="icon" class="sti-icon sti-icon-globe sti-item"&gt;&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+                &lt;li class="span3 clearfix" data-hovercolor="#49110D"&gt;
+					&lt;a href="#"&gt;
+						&lt;h2 data-type="mText" class="sti-item"&gt;Brand Creation&lt;/h2&gt;
+						&lt;h3 data-type="sText" class="sti-item"&gt;24/7 for you needs&lt;/h3&gt;
+						&lt;span data-type="icon" class="sti-icon sti-icon-brand sti-item"&gt;&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+                &lt;li class="span3 clearfix" data-hovercolor="#49110D"&gt;
+					&lt;a href="#"&gt;
+						&lt;h2 data-type="mText" class="sti-item"&gt;Corporate Identity&lt;/h2&gt;
+						&lt;h3 data-type="sText" class="sti-item"&gt;Lorem ipsum dolor&lt;/h3&gt;
+						&lt;span data-type="icon" class="sti-icon sti-icon-identity sti-item"&gt;&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+                &lt;li class="span3 clearfix" data-hovercolor="#49110D"&gt;
+					&lt;a href="#"&gt;
+						&lt;h2 data-type="mText" class="sti-item"&gt;Web Development&lt;/h2&gt;
+						&lt;h3 data-type="sText" class="sti-item"&gt;Advanced use of technology&lt;/h3&gt;
+						&lt;span data-type="icon" class="sti-icon sti-icon-family sti-item"&gt;&lt;/span&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+            
+                &lt;/div&gt;
+               
+               </pre>
+              
+                <p>Your CSS code. </p>
+              
+              <pre>
+              
+              /*Sliding Text and Icon Style Services  Blocks*/
+.sti-menu{
+	position:relative;
+	margin:20px auto 60px;
+}
+.sti-menu li {
+  height: 325px;
+  margin: 10px 0 ;
+}
+.sti-menu li a{
+	display:block;
+	overflow:hidden;
+	background:#fcfcfc;
+	text-align:center;
+	height:100%;
+	width:100%;
+	position:relative;
+	-moz-box-shadow:1px 1px 3px #ddd;
+	-webkit-box-shadow:1px 1px 3px #ddd;
+	box-shadow:1px 1px 3px #ddd;	
+}
+.sti-menu li a:hover{
+	background:#F96E5B;
+    -moz-box-shadow:inset 1px 1px 70px #EA6A57;
+    -webkit-box-shadow:inset 1px 1px 70px #EA6A57;
+    box-shadow:inset 1px 1px 70px #EA6A57;
+	color:#FFF!important;
+	}
+.sti-menu li a h2{
+	color:#575757;
+	 font-family: 'Kelly Slab',cursive !important;
+	font-size:24px;
+	position:absolute;
+	padding:10px;
+	top:140px;
+	left:0px;
+	line-height:30px;
+} 
+.sti-menu li a h3{
+	color:#575757;
+	 font-family: 'Kelly Slab',cursive !important;
+	font-size:18px;
+	font-style:italic;
+	position:absolute;
+	top:215px;
+	left:0px;
+	padding:10px;
+	line-height:25px;
+}
+
+.sti-icon{
+	width:100px;
+	height:100px;
+	position:absolute;
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-color:transparent;
+	left:33%;
+	top:30px;
+}
+.sti-icon-care{
+	background-image:url("../images/wordpress .png");
+}
+.sti-icon-alternative{
+	background-image:url("../images/alternative.png");
+}
+.sti-icon-family{
+	background-image:url("../images/development.png");
+}
+.sti-icon-info{
+	background-image:url("../images/design.png");
+}
+.sti-icon-technology{
+	background-image:url("../images/technology.png");
+}
+.sti-icon-globe{
+	background-image:url("../images/globe.png");
+}
+.sti-icon-brand {
+	background-image:url("../images/brand.png");
+}
+.sti-icon-identity{
+	background-image:url("../images/identity.png");
+}
+              
+              </pre>
+              
+          </div>
+          
+          <div class="hero-unit">
+            <h4>Portfolio slideshow</h4>
+              <p><img src="assets/img/camera.jpg" alt="Portfolio"></p>              
+              <p>Your code should look like the following. </p>
+              
+              <pre>
+              
+              
+              &lt;div class="image_grid portfolio_4col lightbox"&gt;     
+    &lt;ul id="list" class="portfolio_list da-thumbs clearfix"&gt;
+    	&lt;li class="span3"&gt;
+        &lt;div&gt;
+            &lt;img src="images/portfolio/s/portfolio1.jpg" alt="img"&gt;
+            &lt;article class="da-animate da-slideFromRight" style="display: block;"&gt;
+                &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+                &lt;em&gt;Lorem ipsum &lt;/em&gt;
+                &lt;span class="link_post"&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/span&gt;              
+&lt;span class="zoom"&gt;&lt;a href="images/portfolio/big/portfolio1.jpg"&gt;&lt;/a&gt; 
+
+&lt;/span&gt;
+            &lt;/article&gt;
+            &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li class="span3"&gt;
+            &lt;img src="images/portfolio/s/portfolio2.jpg" alt="img"&gt;
+            &lt;article class="da-animate da-slideFromTop" style="display: block;"&gt;
+                 &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+                &lt;em&gt;Lorem ipsum &lt;/em&gt;
+                &lt;span class="link_post"&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/span&gt;
+                &lt;span class="zoom"&gt;&lt;a href="images/portfolio/big/portfolio2.jpg"&gt;&lt;/a&gt;&lt;/span&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+        &lt;li class="span3"&gt;
+            &lt;img src="images/portfolio/s/portfolio3.jpg" alt="img"&gt;
+            &lt;article class="da-animate da-slideFromLeft" style="display: block;"&gt;
+                &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+                &lt;em&gt;Lorem ipsum &lt;/em&gt;
+               &lt;span class="link_post"&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/span&gt;
+                &lt;span class="zoom"&gt;&lt;a href="images/portfolio/big/portfolio3.jpg"&gt;&lt;/a&gt;&lt;/span&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+        &lt;li class="span3"&gt;
+            &lt;img src="images/portfolio/s/portfolio4.jpg" alt="img"&gt;
+            &lt;article class="da-animate da-slideFromRight" style="display: block;"&gt;
+                 &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+                &lt;em&gt;Lorem ipsum &lt;/em&gt;
+                 &lt;span class="link_post"&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/span&gt;
+                &lt;span class="zoom"&gt;&lt;a href="images/portfolio/big/portfolio4.jpg"&gt;&lt;/a&gt;&lt;/span&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+        &lt;li class="span3" style="margin-left:0"&gt;
+            &lt;img src="images/portfolio/s/portfolio5.jpg" alt="img"&gt;
+            &lt;article class="da-animate da-slideFromRight" style="display: block;"&gt;
+                &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+                &lt;em&gt;Lorem ipsum &lt;/em&gt;
+                &lt;span class="link_post"&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/span&gt;
+                &lt;span class="zoom"&gt;&lt;a href="images/portfolio/big/portfolio5.jpg"&gt;&lt;/a&gt;&lt;/span&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+        &lt;li class="span3"&gt;
+            &lt;img src="images/portfolio/s/portfolio6.jpg" alt="img"&gt;
+            &lt;article class="da-animate da-slideFromTop" style="display: block;"&gt;
+                &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+                &lt;em&gt;Lorem ipsum &lt;/em&gt;
+                &lt;span class="link_post"&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/span&gt;
+                &lt;span class="zoom"&gt;&lt;a href="images/portfolio/big/portfolio6.jpg"&gt;&lt;/a&gt;&lt;/span&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+        &lt;li class="span3"&gt;
+            &lt;img src="images/portfolio/s/portfolio7.jpg" alt="img"&gt;
+            &lt;article class="da-animate da-slideFromLeft" style="display: block;"&gt;
+                 &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+                &lt;em&gt;Lorem ipsum &lt;/em&gt;
+               &lt;span class="link_post"&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/span&gt;
+                &lt;span class="zoom"&gt;&lt;a href="images/portfolio/big/portfolio7.jpg"&gt;&lt;/a&gt;&lt;/span&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+        &lt;li class="span3"&gt;
+            &lt;img src="images/portfolio/s/portfolio8.jpg" alt="img"&gt;
+            &lt;article class="da-animate da-slideFromRight" style="display: block;"&gt;
+                &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+                &lt;em&gt;Lorem ipsum &lt;/em&gt;
+                 &lt;span class="link_post"&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/span&gt;
+                &lt;span class="zoom"&gt;&lt;a href="images/portfolio/big/portfolio8.jpg"&gt;&lt;/a&gt;&lt;/span&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+        &lt;li class="span3" style="margin-left:0"&gt;
+            &lt;img src="images/portfolio/s/portfolio9.jpg" alt="img"&gt;
+            &lt;article class="da-animate da-slideFromRight" style="display: block;"&gt;
+                &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+                &lt;em&gt;Lorem ipsum &lt;/em&gt;
+                &lt;span class="link_post"&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/span&gt;
+                &lt;span class="zoom"&gt;&lt;a href="images/portfolio/big/portfolio9.jpg"&gt;&lt;/a&gt;&lt;/span&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+        &lt;li class="span3"&gt;
+            &lt;img src="images/portfolio/s/portfolio10.jpg" alt="img"&gt;
+            &lt;article class="da-animate da-slideFromTop" style="display: block;"&gt;
+                 &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+                &lt;em&gt;Lorem ipsum &lt;/em&gt;
+                &lt;span class="link_post"&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/span&gt;
+                &lt;span class="zoom"&gt;&lt;a href="images/portfolio/big/portfolio10.jpg"&gt;&lt;/a&gt;&lt;/span&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+        &lt;li class="span3"&gt;
+            &lt;img src="images/portfolio/s/portfolio11.jpg" alt="img"&gt;
+            &lt;article class="da-animate da-slideFromLeft" style="display: block;"&gt;
+                 &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+                &lt;em&gt;Lorem ipsum &lt;/em&gt;
+               &lt;span class="link_post"&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/span&gt;
+                &lt;span class="zoom"&gt;&lt;a href="images/portfolio/big/portfolio11.jpg"&gt;&lt;/a&gt;&lt;/span&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+        &lt;li class="span3"&gt;
+            &lt;img src="images/portfolio/s/portfolio12.jpg" alt="img"&gt;
+            &lt;article class="da-animate da-slideFromRight" style="display: block;"&gt;
+               &lt;h3&gt;Lorem ipsum dolor&lt;/h3&gt;
+                &lt;em&gt;Lorem ipsum &lt;/em&gt;
+                 &lt;span class="link_post"&gt;&lt;a href="#"&gt;&lt;/a&gt;&lt;/span&gt;
+                &lt;span class="zoom"&gt;&lt;a href="images/portfolio/big/portfolio12.jpg"&gt;&lt;/a&gt;&lt;/span&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/div&gt;
+              
+              </pre>
+              
+<p>Your CSS code in the File <a href="../css/portfolio_gallery.css">portfolio_gallery.css</a> & <a href="../css/jquery.classybox.css">jquery.classybox.css</a></p>
+              
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Gallery Photos</h4>
+              <p><img src="assets/img/Portfolio filter Photos.jpg" alt="Lean Slider"></p>
+              
+              <p>Your code should look like the following. </p>
+              
+              <pre>
+              
+              &lt;div class="container clearfix"&gt;                            
+                            &lt;div class="row-fluid"&gt;
+                                &lt;div class="span12"&gt;  
+                                
+                                &lt;div id="rg-gallery" class="rg-gallery"&gt;
+					&lt;div class="rg-thumbs"&gt;
+						&lt;!-- Elastislide Carousel Thumbnail Viewer --&gt;
+						&lt;div class="es-carousel-wrapper"&gt;
+							&lt;div class="es-nav"&gt;
+								&lt;span class="es-nav-prev"&gt;Previous&lt;/span&gt;
+								&lt;span class="es-nav-next"&gt;Next&lt;/span&gt;
+							&lt;/div&gt;
+							&lt;div class="es-carousel"&gt;
+								&lt;ul&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/1.jpg" data-large="images/gallery_img/1.jpg" alt="image01" data-description="From off a hill whose concave womb reworded" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/2.jpg" data-large="images/gallery_img/2.jpg" alt="image02" data-description="A plaintful story from a sistering vale" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/3.jpg" data-large="images/gallery_img/3.jpg" alt="image03" data-description="A plaintful story from a sistering vale" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/4.jpg" data-large="images/gallery_img/4.jpg" alt="image04" data-description="My spirits to attend this double voice accorded" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/5.jpg" data-large="images/gallery_img/5.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/6.jpg" data-large="images/gallery_img/6.jpg" alt="image06" data-description="Ere long espied a fickle maid full pale" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/7.jpg" data-large="images/gallery_img/7.jpg" alt="image07" data-description="Tearing of papers, breaking rings a-twain" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/8.jpg" data-large="images/gallery_img/8.jpg" alt="image08" data-description="Storming her world with sorrow's wind and rain" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/9.jpg" data-large="images/gallery_img/9.jpg" alt="image09" data-description="Upon her head a platted hive of straw" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/10.jpg" data-large="images/gallery_img/10.jpg" alt="image10" data-description="Which fortified her visage from the sun" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/11.jpg" data-large="images/gallery_img/11.jpg" alt="image11" data-description="Whereon the thought might think sometime it saw" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/12.jpg" data-large="images/gallery_img/12.jpg" alt="image12" data-description="The carcass of beauty spent and done" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/13.jpg" data-large="images/gallery_img/13.jpg" alt="image13" data-description="Time had not scythed all that youth begun" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/14.jpg" data-large="images/gallery_img/14.jpg" alt="image14" data-description="Nor youth all quit; but, spite of heaven's fell rage" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/15.jpg" data-large="images/gallery_img/15.jpg" alt="image15" data-description="Some beauty peep'd through lattice of sear'd age" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/16.jpg" data-large="images/gallery_img/16.jpg" alt="image16" data-description="Oft did she heave her napkin to her eyne" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/17.jpg" data-large="images/gallery_img/17.jpg" alt="image17" data-description="Which on it had conceited characters" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/18.jpg" data-large="images/gallery_img/18.jpg" alt="image18" data-description="Laundering the silken figures in the brine" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/19.jpg" data-large="images/gallery_img/19.jpg" alt="image19" data-description="That season'd woe had pelleted in tears" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/20.jpg" data-large="images/gallery_img/20.jpg" alt="image20" data-description="And often reading what contents it bears" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/21.jpg" data-large="images/gallery_img/21.jpg" alt="image21" data-description="As often shrieking undistinguish'd woe" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/22.jpg" data-large="images/gallery_img/22.jpg" alt="image22" data-description="In clamours of all size, both high and low" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/23.jpg" data-large="images/gallery_img/23.jpg" alt="image23" data-description="Sometimes her levell'd eyes their carriage ride" /&gt;&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="#"&gt;&lt;img src="images/gallery_img/thumbs/24.jpg" data-large="images/gallery_img/24.jpg" alt="image24" data-description="As they did battery to the spheres intend" /&gt;&lt;/a&gt;&lt;/li&gt;
+								&lt;/ul&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;!-- End Elastislide Carousel Thumbnail Viewer --&gt;
+					&lt;/div&gt;&lt;!-- rg-thumbs --&gt;
+				&lt;/div&gt;        
+                                &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;/div&gt;
+              
+              </pre>
+              
+               <p>Your CSS code in the File <a href="../css/elastislide.css">elastislide.css</a></p>
+                
+          </div>
+          
+          <div class="hero-unit">
+              <h4>3D Slider</h4>
+              <p><img src="assets/img/3d_slider.jpg" alt="Lean Slider"></p>
+              
+              <p>Your code should look like the following. </p>
+              
+               <pre>
+               
+               &lt;div class="wrapper"&gt;
+
+				&lt;ul id="sb-slider" class="sb-slider"&gt;
+					&lt;li&gt;
+						&lt;a href="#" target="_blank"&gt;&lt;img src="images/1.jpg" alt="image1"/&gt;&lt;/a&gt;
+						&lt;div class="sb-description"&gt;
+							&lt;h3&gt;Creative Lifesaver&lt;/h3&gt;
+						&lt;/div&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a href="#" target="_blank"&gt;&lt;img src="images/2.jpg" alt="image2"/&gt;&lt;/a&gt;
+						&lt;div class="sb-description"&gt;
+							&lt;h3&gt;Honest Entertainer&lt;/h3&gt;
+						&lt;/div&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a href="#" target="_blank"&gt;&lt;img src="images/3.jpg" alt="image1"/&gt;&lt;/a&gt;
+						&lt;div class="sb-description"&gt;
+							&lt;h3&gt;Brave Astronaut&lt;/h3&gt;
+						&lt;/div&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a href="#" target="_blank"&gt;&lt;img src="images/4.jpg" alt="image1"/&gt;&lt;/a&gt;
+						&lt;div class="sb-description"&gt;
+							&lt;h3&gt;Affectionate Decision Maker&lt;/h3&gt;
+						&lt;/div&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a href="#" target="_blank"&gt;&lt;img src="images/5.jpg" alt="image1"/&gt;&lt;/a&gt;
+						&lt;div class="sb-description"&gt;
+							&lt;h3&gt;Faithful Investor&lt;/h3&gt;
+						&lt;/div&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a href="#" target="_blank"&gt;&lt;img src="images/6.jpg" alt="image1"/&gt;&lt;/a&gt;
+						&lt;div class="sb-description"&gt;
+							&lt;h3&gt;Groundbreaking Artist&lt;/h3&gt;
+						&lt;/div&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a href="#" target="_blank"&gt;&lt;img src="images/7.jpg" alt="image1"/&gt;&lt;/a&gt;
+						&lt;div class="sb-description"&gt;
+							&lt;h3&gt;Selfless Philantropist&lt;/h3&gt;
+						&lt;/div&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+
+				&lt;div id="shadow" class="shadow"&gt;&lt;/div&gt;
+
+				&lt;div id="nav-arrows" class="nav-arrows"&gt;
+					&lt;a href="#"&gt;Next&lt;/a&gt;
+					&lt;a href="#"&gt;Previous&lt;/a&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+               
+               </pre>  
+                           
+               <p>Your CSS code in the File <a href="../css/slicebox.css">slicebox.css</a></p>              
+                  
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Layer Slider</h4>
+              <p><img src="assets/img/layer slider.jpg" alt="Lean Slider"></p>
+              
+              <p>Your code should look like the following. </p>
+              
+               <pre>  
+         &lt;div id="layer_slider"&gt;
+		&lt;div class="container-fluid"&gt;				
+			&lt;div class="row"&gt;				
+				&lt;div class="span12"&gt;
+					
+					&lt;div style="position: relative; overflow: hidden;" id="slideShow"&gt;
+						
+&lt;!--FIRST SLIDE--&gt;
+&lt;div class="SlideNo" data-out="top:1000;opacity:0;" data-in="left:-100;opacity:.2;duration:500"&gt;
+
+&lt;img src="images/grid/large/2.jpg"&gt;					
+		
+&lt;div class="span12"&gt;
+&lt;div data-in="top:-100;delay:1550;duration:550"&gt;&lt;h2 class="layer_slider"&gt;Responsive Design&lt;/h2&gt;&lt;/div&gt;
+&lt;div data-in="left:-1000;delay:700;duration:1550" class="content span4"&gt;Awesome Slider&lt;/div&gt;
+&lt;div data-in="left:-1000;delay:800;duration:1550" class="content span4"&gt;Multiple Animations&lt;/div&gt;
+&lt;div data-in="left:-1000;delay:900;duration:1550" class="content span4"&gt;Easing Included&lt;/div&gt;
+&lt;div data-in="left:-1000;delay:1000;duration:1550" class="content span4"&gt;Parallax Effect&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+		
+&lt;!--SECOND SLIDE--&gt;
+&lt;div class="SlideNo" data-out="left:-1000;opacity:0;delay:9000" data-in="top:-500;duration:1200;ease:easeOutBounce;"&gt;
+
+&lt;img src="images/grid/large/4.jpg"&gt;	
+
+&lt;div class="span12"&gt;
+&lt;div data-in="opacity:0;left:100;delay:2050;duration:1050;ease:linear" data-out="left:-100;opacity:0;delay:4000;"&gt;&lt;h2 class="layer_slider"&gt;Many Slider&lt;/h2&gt;&lt;/div&gt;
+&lt;/div&gt;
+						
+&lt;div class="span3"&gt;								
+&lt;div class="content span12" data-in="opacity:0;left:100;delay:2050;duration:1050;ease:linear" data-out="left:-100;opacity:0;delay:4000;" &gt;Unlimited&lt;/div&gt;
+&lt;div class="content span12" data-in="opacity:0;left:150;delay:2550;duration:1050;ease:linear" data-out="left:-100;opacity:0;delay:4300;" &gt;Animations&lt;/div&gt;&lt;/div&gt;
+							
+&lt;div class="span3"&gt;
+&lt;div class="content span12" data-in="opacity:0;left:100;delay:3050;duration:1050;ease:linear" data-out="left:-100;opacity:0;delay:4000;" &gt;Embed&lt;/div&gt;
+&lt;div class="content span12" data-in="opacity:0;left:150;delay:3550;duration:800;ease:linear" data-out="left:-100;opacity:0;delay:4300;" &gt;Any HTML&lt;/div&gt; &lt;/div&gt;
+							
+ &lt;div class="span3"&gt;
+&lt;div class="content span12" data-in="opacity:0;left:100;delay:4050;duration:1050;ease:linear" data-out="left:-100;opacity:0;delay:4000;" &gt;Use&lt;/div&gt;
+&lt;div class="content span12" data-in="opacity:0;left:150;delay:4550;duration:800;ease:linear" data-out="left:-100;opacity:0;delay:4300;" &gt;Your Imagination&lt;/div&gt;&lt;/div&gt;
+							
+&lt;/div&gt;
+						
+&lt;!--THIRD SLIDE--&gt;
+&lt;div class="SlideNo" data-out="top:-1000;opacity:0;delay:7000" data-in="left:1000;ease:linear;duration:400;delay:50"&gt;
+
+&lt;img src="images/grid/large/19.jpg"&gt;
+							
+&lt;div class="span12" style="margin-top:15px;"&gt;
+&lt;div data-in="top:-1000;delay:1850;duration:550"&gt;&lt;h2 class="layer_slider"&gt;Really Flexible&lt;/h2&gt;&lt;/div&gt;
+&lt;div data-in="top:-1000;delay:1650;duration:550" class="content span4"&gt;Design Your Layout&lt;/div&gt;
+&lt;div data-in="top:-1000;delay:1450;duration:550" class="content  span4"&gt;Animate Every Element&lt;/div&gt;
+&lt;div data-in="top:-1000;delay:1250;duration:550" class="content  span4"&gt;Embed Any HTML&lt;/div&gt;
+&lt;div data-in="top:-1000;delay:1050;duration:550" class="content  span4"&gt;Does't Force Styles&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--FOUR SLID--&gt;
+&lt;div class="SlideNo" data-out="left:-1000;opacity:0;delay:3000"&gt;
+							
+&lt;img data-in="opacity:0;left:-100;duration:1000;ease:linear;" src="images/grid/large/17.jpg"&gt;
+
+&lt;div class="span12"&gt;
+&lt;div data-in="top:-100;delay:1550;duration:550"&gt;&lt;h2 class="layer_slider"&gt;HTNL5 AND CSS3&lt;/h2&gt;&lt;/div&gt;
+&lt;div data-in="left:-1000;delay:700;duration:1550" class="content span4"&gt;Mutiple Slides&lt;/div&gt;
+&lt;div data-in="left:-1000;delay:800;duration:1550" class="content span4"&gt;Multiple Animations&lt;/div&gt;
+&lt;div data-in="left:-1000;delay:900;duration:1550" class="content span4"&gt;Easing Included&lt;/div&gt;
+&lt;div data-in="left:-1000;delay:1000;duration:1550" class="content span4"&gt;Easing Included&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="slideControlBTN"&gt;
+&lt;ul class="slideControl"&gt;
+&lt;li class=""&gt;&lt;/li&gt;
+&lt;li class="current"&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+                
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+        
+		
+	&lt;div class="_ayaSlider_timer" style="position: absolute; z-index: 4; width: 947.454px; height: 5px; background: none repeat scroll 0% 0% rgb(0, 0, 0); left: 0px; margin: 0px; padding: 0px; opacity: 0.5; top: 550px; overflow: hidden;"&gt;&lt;/div&gt;&lt;/div&gt;
+                 
+               </pre>              
+               <p>Your CSS code in the File <a href="../css/layer_slider/app.css">app.css</a></p>                    
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Nivo Slider</h4>
+              <p><img src="assets/img/nivo_slider.jpg" alt="Lean Slider"></p>
+              
+              <p>Your code should look like the following. </p>
+              
+               <pre>    
+               
+               &lt;div class="theme-default"&gt;
+            &lt;div id="nivo" class="nivoSlider"&gt;
+&lt;img src="images/grid/large/2.jpg" data-thumb="images/grid/large/2.jpg" alt="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/&gt;
+&lt;img src="images/grid/large/5.jpg" data-thumb="images/grid/large/5.jpg" alt="" title="Aliquam eu libero. Integer molestie, turpis vel ultrices facilisis." /&gt;
+&lt;img src="images/grid/large/8.jpg" data-thumb="images/grid/large/8.jpg" alt="" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/&gt;
+&lt;img src="images/grid/large/1.jpg" data-thumb="images/grid/large/1.jpg" alt="" title="Aliquam eu libero. Integer molestie, turpis vel ultrices facilisis." /&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+                   
+               </pre>              
+               <p>Your CSS code in the File <a href="../css/nivo_slider/nivo-slider.css">nivo-slider.css</a></p>              
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Parallax Slider</h4>
+              <p><img src="assets/img/parallax_slider.jpg" alt="Lean Slider"></p>
+              
+              <p>Your code should look like the following. </p>
+              
+               <pre>        
+               
+               &lt;div id="da-slider" class="da-slider span12"&gt;
+				&lt;div class="da-slide"&gt;
+					&lt;h2&gt;Responsive Design&lt;/h2&gt;
+					&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie.&lt;/p&gt;
+					&lt;a href="#" class="da-link"&gt;Read more&lt;/a&gt;
+					&lt;div class="da-img"&gt;&lt;img src="images/parallax_slider/2.png" alt="image01" /&gt;&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="da-slide"&gt;
+					&lt;h2&gt;Really Flexible&lt;/h2&gt;
+					&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie.&lt;/p&gt;
+					&lt;a href="#" class="da-link"&gt;Read more&lt;/a&gt;
+					&lt;div class="da-img"&gt;&lt;img src="images/parallax_slider/3.png" alt="image01" /&gt;&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="da-slide"&gt;
+					&lt;h2&gt;Parallax Effect&lt;/h2&gt;
+					&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie.&lt;/p&gt;
+					&lt;a href="#" class="da-link"&gt;Read more&lt;/a&gt;
+					&lt;div class="da-img"&gt;&lt;img src="images/parallax_slider/1.png" alt="image01" /&gt;&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class="da-slide"&gt;
+					&lt;h2&gt;Awesome Slider&lt;/h2&gt;
+					&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie.&lt;/p&gt;
+					&lt;a href="#" class="da-link"&gt;Read more&lt;/a&gt;
+					&lt;div class="da-img"&gt;&lt;img src="images/parallax_slider/4.png" alt="image01" /&gt;&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;nav class="da-arrows"&gt;
+					&lt;span class="da-arrows-prev"&gt;&lt;/span&gt;
+					&lt;span class="da-arrows-next"&gt;&lt;/span&gt;
+				&lt;/nav&gt;
+			&lt;/div&gt;
+                   
+               </pre>              
+               <p>Your CSS code in the File <a href="../css/parallax_slider/parallax_slider.css">parallax_slider.css</a></p>            
+          </div>
+          
+          <div class="hero-unit">
+              <h4>Portfolio Slider</h4>
+              <p><img src="assets/img/Portfolio Slider.jpg" alt="Lean Slider"></p>
+              
+              <p>Your code should look like the following. </p>
+              
+               <pre>      
+               
+               &lt;div id="portfolio" class="clearfix"&gt;
+			&lt;div id="background"&gt;&lt;/div&gt;		
+			&lt;div class="arrows"&gt;
+				&lt;a href="#" class="up"&gt;Up&lt;/a&gt;
+				&lt;a href="#" class="down"&gt;Down&lt;/a&gt;
+				&lt;a href="#" class="prev"&gt;Previous&lt;/a&gt;
+				&lt;a href="#" class="next"&gt;Next&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class="gallery"&gt;
+				&lt;div class="inside"&gt;
+					&lt;div class="item"&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/5.jpg" alt="image1" /&gt;&lt;/div&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/2.jpg" alt="image2" /&gt;&lt;/div&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/3.jpg" alt="image3" /&gt;&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class="item"&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/6.jpg" alt="image4" /&gt;&lt;/div&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/19.jpg" alt="image5" /&gt;&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class="item"&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/9.jpg" alt="image6" /&gt;&lt;/div&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/7.jpg" alt="image7" /&gt;&lt;/div&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/8.jpg" alt="image8" /&gt;&lt;/div&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/1.jpg" alt="image9" /&gt;&lt;/div&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/20.jpg" alt="image10" /&gt;&lt;/div&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/22.jpg" alt="image11" /&gt;&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div class="item"&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/7.jpg" alt="image12" /&gt;&lt;/div&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/27.jpg" alt="image13" /&gt;&lt;/div&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/4.jpg" alt="image14" /&gt;&lt;/div&gt;
+						&lt;div&gt;&lt;img src="images/grid/large/5.jpg" alt="image15" /&gt;&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+                 
+               </pre>              
+               <p>Your CSS code in the File <a href="../css/portfolio-slider/portfolio_slider.css">portfolio_slider.css</a></p>              
+          </div>
+
+        </section>
+
+
+
+        <!-- JavaScript initialization
+        ================================================== -->
+        <section id="JavaScript">
+          <div class="page-header">
+            <h1>JavaScript initialization</h1>
+          </div>
+          
+          <div class="hero-unit">
+          
+           <h4>Grid SlideShow</h4>
+              <pre>
+           
+           /***grid slidShow***/
+            $(function() {
+			
+				var $ibWrapper	= $('#ib-main-wrapper'),
+				 
+					Template	= (function() {
+							
+							// true if dragging the container
+						var kinetic_moving				= false,
+							// current index of the opened item
+							current						= -1,
+							// true if the item is being opened / closed
+							isAnimating					= false,
+							// items on the grid
+							$ibItems					= $ibWrapper.find('div.ib-main > a'),
+							// image items on the grid
+							$ibImgItems					= $ibItems.not('.ib-content'),
+							// total image items on the grid
+							imgItemsCount				= $ibImgItems.length,
+							init						= function() {
+								
+								// add a class ib-image to the image items
+								$ibImgItems.addClass('ib-image');
+								// apply the kinetic plugin to the wrapper
+								loadKinetic();
+								// load some events
+								initEvents();
+						
+							},
+							loadKinetic					= function() {
+								
+								setWrapperSize();
+								
+								$ibWrapper.kinetic({
+									moved	: function() {
+										
+										kinetic_moving = true;
+										
+									},
+									stopped	: function() {
+										
+										kinetic_moving = false;
+										
+									}
+								});
+								
+							},
+							setWrapperSize				= function() {
+								
+								var containerMargins	= $('#ib-top').outerHeight(true) + $('#header').outerHeight(true) + parseFloat( $ibItems.css('margin-top') );
+								$ibWrapper.css( 'height', $(window).height() - containerMargins )
+								
+							},
+							initEvents					= function() {
+							
+								// open the item only if not dragging the container
+								$ibItems.bind('click.ibTemplate', function( event ) {
+									
+									if( !kinetic_moving )
+										openItem( $(this) );
+								
+									return false;	
+								
+								});
+								
+								// on window resize, set the wrapper and preview size accordingly
+								$(window).bind('resize.ibTemplate', function( event ) {
+									
+									setWrapperSize();
+									
+									$('#ib-img-preview, #ib-content-preview').css({
+										width	: $(window).width(),
+										height	: $(window).height()
+									})
+									
+								});
+							
+							},
+							openItem					= function( $item ) {
+								
+								if( isAnimating ) return false;
+								
+								// if content item
+								if( $item.hasClass('ib-content') ) {
+									
+									isAnimating	= true;
+									current	= $item.index('.ib-content');
+									loadContentItem( $item, function() { isAnimating = false; } );
+									
+								}
+								// if image item
+								else {
+								
+									isAnimating	= true;
+									current	= $item.index('.ib-image');
+									loadImgPreview( $item, function() { isAnimating = false; } );
+									
+								}
+								
+							},
+							// opens one image item (fullscreen)
+							loadImgPreview				= function( $item, callback ) {
+								
+								var largeSrc		= $item.children('img').data('largesrc'),
+									description		= $item.children('span').text(),
+									largeImageData	= {
+										src			: largeSrc,
+										description	: description
+									};
+								
+								// preload large image
+								$item.addClass('ib-loading');
+								
+								preloadImage( largeSrc, function() {
+									
+									$item.removeClass('ib-loading');
+									
+									var hasImgPreview	= ( $('#ib-img-preview').length > 0 );
+									
+									if( !hasImgPreview )
+										$('#previewTmpl').tmpl( largeImageData ).insertAfter( $ibWrapper );
+									else
+										$('#ib-img-preview').children('img.ib-preview-img')
+															.attr( 'src', largeSrc )
+															.end()
+															.find('span.ib-preview-descr')
+															.text( description );
+										
+									//get dimentions for the image, based on the windows size
+									var	dim	= getImageDim( largeSrc );
+									
+									$item.removeClass('ib-img-loading');
+									
+									//set the returned values and show/animate preview
+									$('#ib-img-preview').css({
+										width	: $item.width(),
+										height	: $item.height(),
+										left	: $item.offset().left,
+										top		: $item.offset().top
+									}).children('img.ib-preview-img').hide().css({
+										width	: dim.width,
+										height	: dim.height,
+										left	: dim.left,
+										top		: dim.top
+									}).fadeIn( 400 ).end().show().animate({
+										width	: $(window).width(),
+										left	: 0
+									}, 500, 'easeOutExpo', function() {
+									
+										$(this).animate({
+											height	: $(window).height(),
+											top		: 0
+										}, 400, function() {
+										
+											var $this	= $(this);
+											$this.find('span.ib-preview-descr, span.ib-close').show()
+											if( imgItemsCount > 1 )
+												$this.find('div.ib-nav').show();
+												
+											if( callback ) callback.call();
+										
+										});
+									
+									});
+									
+									if( !hasImgPreview )
+										initImgPreviewEvents();
+									
+								} );
+								
+							},
+							// opens one content item (fullscreen)
+							loadContentItem				= function( $item, callback ) {
+								
+								var hasContentPreview	= ( $('#ib-content-preview').length > 0 ),
+									teaser				= $item.children('div.ib-teaser').html(),
+									content				= $item.children('div.ib-content-full').html(),
+									contentData			= {
+										teaser		: teaser,
+										content		: content
+									};
+									
+								if( !hasContentPreview )
+									$('#contentTmpl').tmpl( contentData ).insertAfter( $ibWrapper );
+									
+								//set the returned values and show/animate preview
+								$('#ib-content-preview').css({
+									width	: $item.width(),
+									height	: $item.height(),
+									left	: $item.offset().left,
+									top		: $item.offset().top
+								}).show().animate({
+									width	: $(window).width(),
+									left	: 0
+								}, 500, 'easeOutExpo', function() {
+								
+									$(this).animate({
+										height	: $(window).height(),
+										top		: 0
+									}, 400, function() {
+										
+										var $this	= $(this),
+											$teaser	= $this.find('div.ib-teaser'),
+											$content= $this.find('div.ib-content-full'),
+											$close	= $this.find('span.ib-close');
+											
+										if( hasContentPreview ) {
+											$teaser.html( teaser )
+											$content.html( content )
+										}
+									
+										$teaser.show();
+										$content.show();
+										$close.show();
+										
+										if( callback ) callback.call();
+									
+									});
+								
+								});
+								
+								if( !hasContentPreview )
+									initContentPreviewEvents();	
+								
+							},
+							// preloads an image
+							preloadImage				= function( src, callback ) {
+							
+								$('<img/>').load(function(){
+								
+									if( callback ) callback.call();
+								
+								}).attr( 'src', src );
+							
+							},
+							// load the events for the image preview : navigation ,close button, and window resize
+							initImgPreviewEvents		= function() {
+							
+								var $preview	= $('#ib-img-preview');
+								
+								$preview.find('span.ib-nav-prev').bind('click.ibTemplate', function( event ) {
+									
+									navigate( 'prev' );
+									
+								}).end().find('span.ib-nav-next').bind('click.ibTemplate', function( event ) {
+									
+									navigate( 'next' );
+									
+								}).end().find('span.ib-close').bind('click.ibTemplate', function( event ) {
+									
+									closeImgPreview();
+									
+								});
+								
+								//resizing the window resizes the preview image
+								$(window).bind('resize.ibTemplate', function( event ) {
+									
+									var $largeImg	= $preview.children('img.ib-preview-img'),
+										dim			= getImageDim( $largeImg.attr('src') );
+									
+									$largeImg.css({
+										width	: dim.width,
+										height	: dim.height,
+										left	: dim.left,
+										top		: dim.top
+									})
+									
+								});
+								
+							},
+							// load the events for the content preview : close button
+							initContentPreviewEvents	= function() {
+							
+								$('#ib-content-preview').find('span.ib-close').bind('click.ibTemplate', function( event ) {
+									
+									closeContentPreview();
+									
+								});
+								
+							},
+							// navigate the image items in fullscreen mode
+							navigate					= function( dir ) {
+								
+								if( isAnimating ) return false;
+								
+								isAnimating		= true;
+								
+								var $preview	= $('#ib-img-preview'),
+									$loading	= $preview.find('div.ib-loading-large');
+								
+								$loading.show();
+								
+								if( dir === 'next' ) {
+									
+									( current === imgItemsCount - 1 ) ? current	= 0 : ++current;
+									
+								}
+								else if( dir === 'prev' ) {
+									
+									( current === 0 ) ? current	= imgItemsCount - 1 : --current;
+									
+								}
+								
+								var $item		= $ibImgItems.eq( current ),
+									largeSrc	= $item.children('img').data('largesrc'),
+									description	= $item.children('span').text();
+									
+								preloadImage( largeSrc, function() {
+									
+									$loading.hide();
+									
+									//get dimentions for the image, based on the windows size
+									var	dim	= getImageDim( largeSrc );
+									
+									$preview.children('img.ib-preview-img')
+												    .attr( 'src', largeSrc )
+													.css({
+										width	: dim.width,
+										height	: dim.height,
+										left	: dim.left,
+										top		: dim.top
+													})
+													.end()
+													.find('span.ib-preview-descr')
+													.text( description );
+									
+									$ibWrapper.scrollTop( $item.offset().top )
+											  .scrollLeft( $item.offset().left );
+									
+									isAnimating	= false;
+									
+								});
+								
+							},
+							// closes the fullscreen image item
+							closeImgPreview				= function() {
+							
+								if( isAnimating ) return false;
+								
+								isAnimating	= true;
+								
+								var $item	= $ibImgItems.eq( current );
+								
+								$('#ib-img-preview').find('span.ib-preview-descr, div.ib-nav, span.ib-close')
+												.hide()
+												.end()
+												.animate({
+													height	: $item.height(),
+													top		: $item.offset().top
+													}, 500, 'easeOutExpo', function() {
+													
+													$(this).animate({
+														width	: $item.width(),
+														left	: $item.offset().left
+														}, 400, function() {
+														
+															$(this).fadeOut(function() {isAnimating	= false;});
+														
+													} );
+												
+												});
+							
+							},
+							// closes the fullscreen content item
+							closeContentPreview			= function() {
+								
+								if( isAnimating ) return false;
+								
+								isAnimating	= true;
+								
+								var $item	= $ibItems.not('.ib-image').eq( current );
+								
+								$('#ib-content-preview').find('div.ib-teaser, div.ib-content-full, span.ib-close')
+														.hide()
+														.end()
+														.animate({
+															height	: $item.height(),
+															top		: $item.offset().top
+														}, 500, 'easeOutExpo', function() {
+															
+															$(this).animate({
+																width	: $item.width(),
+																left	: $item.offset().left
+															}, 400, function() {
+																
+																$(this).fadeOut(function() {isAnimating	= false;});
+																
+															} );
+														
+														});
+							
+							},
+							// get the size of one image to make it full size and centered
+							getImageDim					= function( src ) {
+								
+								var img     	= new Image();
+								img.src     	= src;
+								
+								var w_w	= $(window).width(),
+									w_h	= $(window).height(),
+									r_w	= w_h / w_w,
+									i_w	= img.width,
+									i_h	= img.height,
+									r_i	= i_h / i_w,
+									new_w, new_h,
+									new_left, new_top;
+								
+								if( r_w > r_i ) {
+								
+									new_h	= w_h;
+									new_w	= w_h / r_i;
+								
+								}	
+								else {
+								
+									new_h	= w_w * r_i;
+									new_w	= w_w;
+								
+								}
+								
+								return {
+									width	: new_w,
+									height	: new_h,
+									left	: (w_w - new_w) / 2,
+									top		: (w_h - new_h) / 2
+								};
+							
+							};
+						
+						return { init : init };
+						
+					})();
+				
+				Template.init();
+				
+            });
+
+           </pre>
+                      
+              <h4>Lean Slider</h4>
+              <pre>
+              $(document).ready(function() {
+                var slider = $('#slider').leanSlider({
+                    directionNav: '#slider-direction-nav',
+                    controlNav: '#slider-control-nav'
+                });
+            });
+              </pre>
+              
+              <h4>Our Services Section with animation</h4>
+              <pre>
+             $(function() {
+				$('#sti-menu').iconmenu();
+			});
+            </pre>
+                      
+                        <h4>Portfolio slideshow</h4>
+                       <pre>
+                       jQuery(document).ready(function(){
+                        jQuery(function() {
+                            jQuery('ul.da-thumbs > li').hoverdir();
+                        });
+                        });
+                       </pre>
+                       
+                       <h4>Gallery </h4>
+                       <pre>
+                       
+                         &lt;script id="img-wrapper-tmpl" type="text/x-jquery-tmpl"&gt;	
+			&lt;div class="rg-image-wrapper"&gt;
+				{{if itemsCount &gt; 1}}
+					&lt;div class="rg-image-nav"&gt;
+						&lt;a href="#" class="rg-image-nav-prev"&gt;Previous Image&lt;/a&gt;
+						&lt;a href="#" class="rg-image-nav-next"&gt;Next Image&lt;/a&gt;
+					&lt;/div&gt;
+				{{/if}}
+				&lt;div class="rg-image"&gt;&lt;/div&gt;
+				&lt;div class="rg-loading"&gt;&lt;/div&gt;
+				&lt;div class="rg-caption-wrapper"&gt;
+					&lt;div class="rg-caption" style="display:none;"&gt;
+						&lt;p&gt;&lt;/p&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/script&gt;
+                       </pre>
+                       
+                       <h4>3D Slider</h4>
+                       <pre>
+                       
+                       			$(function() {
+				
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$shadow.show();
+
+							},
+							orientation : 'r',
+							cuboidsRandom : true,
+							disperseFactor : 30
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+			});
+                       
+                       </pre>
+                       
+                       <h4>Layer Slider</h4>
+                       <pre>
+                       
+                       $(document).ready(function(){
+                        $('#slideShow').ayaSlider({
+                           easeIn : 'easeOutBack',
+                           easeOut : 'linear',
+                           delay : 5000,
+                           timer : $('#layer_slider'),
+                           previous : $('.prev'),
+                           next : $('.next'),
+                           list : $('.slideControl')
+                        });
+                    });	
+                       
+                       </pre>
+                       
+                       <h4>Nivo Slider</h4>
+                       <pre>
+                       
+                        $(window).load(function() {
+                        $('#nivo').nivoSlider();
+                    });
+                       
+                       </pre>
+                       
+                        <h4>Parallax Slider</h4>
+                       <pre>
+                       
+                       $(function() {			
+                        $('#da-slider').cslider({
+                            autoplay	: true,
+                            bgincrement	: 50
+                        });
+                    
+                    });                       
+                       </pre>
+                       
+                         <h4>Portfolio Slider</h4>
+                       <pre>
+                       
+                       var o = {
+                        init: function(){
+                            this.portfolio.init();
+                        },
+                        portfolio: {
+                            data: {
+                            },
+                            init: function(){
+                                $('#portfolio').portfolio(o.portfolio.data);
+                            }
+                        }
+                    }
+                    
+                    $(function(){ o.init(); });
+                       
+                       </pre>
+                       
+                         
+              
+          </div>
+
+   
+
+        </section>
+        
+        
+        <!-- Icons
+        ================================================== -->
+        <section id="icons">
+          <div class="page-header">
+            <h1>Icons <small>by <a href="http://glyphicons.com" target="_blank">Glyphicons</a></small></h1>
+          </div>
+
+          <h2>Icon glyphs</h2>
+          <p>140 icons in sprite form, available in dark gray (default) and white, provided by <a href="http://glyphicons.com" target="_blank">Glyphicons</a>.</p>
+          <ul class="the-icons clearfix">
+            <li><i class="icon-glass"></i> icon-glass</li>
+            <li><i class="icon-music"></i> icon-music</li>
+            <li><i class="icon-search"></i> icon-search</li>
+            <li><i class="icon-envelope"></i> icon-envelope</li>
+            <li><i class="icon-heart"></i> icon-heart</li>
+            <li><i class="icon-star"></i> icon-star</li>
+            <li><i class="icon-star-empty"></i> icon-star-empty</li>
+            <li><i class="icon-user"></i> icon-user</li>
+            <li><i class="icon-film"></i> icon-film</li>
+            <li><i class="icon-th-large"></i> icon-th-large</li>
+            <li><i class="icon-th"></i> icon-th</li>
+            <li><i class="icon-th-list"></i> icon-th-list</li>
+            <li><i class="icon-ok"></i> icon-ok</li>
+            <li><i class="icon-remove"></i> icon-remove</li>
+            <li><i class="icon-zoom-in"></i> icon-zoom-in</li>
+            <li><i class="icon-zoom-out"></i> icon-zoom-out</li>
+            <li><i class="icon-off"></i> icon-off</li>
+            <li><i class="icon-signal"></i> icon-signal</li>
+            <li><i class="icon-cog"></i> icon-cog</li>
+            <li><i class="icon-trash"></i> icon-trash</li>
+            <li><i class="icon-home"></i> icon-home</li>
+            <li><i class="icon-file"></i> icon-file</li>
+            <li><i class="icon-time"></i> icon-time</li>
+            <li><i class="icon-road"></i> icon-road</li>
+            <li><i class="icon-download-alt"></i> icon-download-alt</li>
+            <li><i class="icon-download"></i> icon-download</li>
+            <li><i class="icon-upload"></i> icon-upload</li>
+            <li><i class="icon-inbox"></i> icon-inbox</li>
+
+            <li><i class="icon-play-circle"></i> icon-play-circle</li>
+            <li><i class="icon-repeat"></i> icon-repeat</li>
+            <li><i class="icon-refresh"></i> icon-refresh</li>
+            <li><i class="icon-list-alt"></i> icon-list-alt</li>
+            <li><i class="icon-lock"></i> icon-lock</li>
+            <li><i class="icon-flag"></i> icon-flag</li>
+            <li><i class="icon-headphones"></i> icon-headphones</li>
+            <li><i class="icon-volume-off"></i> icon-volume-off</li>
+            <li><i class="icon-volume-down"></i> icon-volume-down</li>
+            <li><i class="icon-volume-up"></i> icon-volume-up</li>
+            <li><i class="icon-qrcode"></i> icon-qrcode</li>
+            <li><i class="icon-barcode"></i> icon-barcode</li>
+            <li><i class="icon-tag"></i> icon-tag</li>
+            <li><i class="icon-tags"></i> icon-tags</li>
+            <li><i class="icon-book"></i> icon-book</li>
+            <li><i class="icon-bookmark"></i> icon-bookmark</li>
+            <li><i class="icon-print"></i> icon-print</li>
+            <li><i class="icon-camera"></i> icon-camera</li>
+            <li><i class="icon-font"></i> icon-font</li>
+            <li><i class="icon-bold"></i> icon-bold</li>
+            <li><i class="icon-italic"></i> icon-italic</li>
+            <li><i class="icon-text-height"></i> icon-text-height</li>
+            <li><i class="icon-text-width"></i> icon-text-width</li>
+            <li><i class="icon-align-left"></i> icon-align-left</li>
+            <li><i class="icon-align-center"></i> icon-align-center</li>
+            <li><i class="icon-align-right"></i> icon-align-right</li>
+            <li><i class="icon-align-justify"></i> icon-align-justify</li>
+            <li><i class="icon-list"></i> icon-list</li>
+
+            <li><i class="icon-indent-left"></i> icon-indent-left</li>
+            <li><i class="icon-indent-right"></i> icon-indent-right</li>
+            <li><i class="icon-facetime-video"></i> icon-facetime-video</li>
+            <li><i class="icon-picture"></i> icon-picture</li>
+            <li><i class="icon-pencil"></i> icon-pencil</li>
+            <li><i class="icon-map-marker"></i> icon-map-marker</li>
+            <li><i class="icon-adjust"></i> icon-adjust</li>
+            <li><i class="icon-tint"></i> icon-tint</li>
+            <li><i class="icon-edit"></i> icon-edit</li>
+            <li><i class="icon-share"></i> icon-share</li>
+            <li><i class="icon-check"></i> icon-check</li>
+            <li><i class="icon-move"></i> icon-move</li>
+            <li><i class="icon-step-backward"></i> icon-step-backward</li>
+            <li><i class="icon-fast-backward"></i> icon-fast-backward</li>
+            <li><i class="icon-backward"></i> icon-backward</li>
+            <li><i class="icon-play"></i> icon-play</li>
+            <li><i class="icon-pause"></i> icon-pause</li>
+            <li><i class="icon-stop"></i> icon-stop</li>
+            <li><i class="icon-forward"></i> icon-forward</li>
+            <li><i class="icon-fast-forward"></i> icon-fast-forward</li>
+            <li><i class="icon-step-forward"></i> icon-step-forward</li>
+            <li><i class="icon-eject"></i> icon-eject</li>
+            <li><i class="icon-chevron-left"></i> icon-chevron-left</li>
+            <li><i class="icon-chevron-right"></i> icon-chevron-right</li>
+            <li><i class="icon-plus-sign"></i> icon-plus-sign</li>
+            <li><i class="icon-minus-sign"></i> icon-minus-sign</li>
+            <li><i class="icon-remove-sign"></i> icon-remove-sign</li>
+            <li><i class="icon-ok-sign"></i> icon-ok-sign</li>
+
+            <li><i class="icon-question-sign"></i> icon-question-sign</li>
+            <li><i class="icon-info-sign"></i> icon-info-sign</li>
+            <li><i class="icon-screenshot"></i> icon-screenshot</li>
+            <li><i class="icon-remove-circle"></i> icon-remove-circle</li>
+            <li><i class="icon-ok-circle"></i> icon-ok-circle</li>
+            <li><i class="icon-ban-circle"></i> icon-ban-circle</li>
+            <li><i class="icon-arrow-left"></i> icon-arrow-left</li>
+            <li><i class="icon-arrow-right"></i> icon-arrow-right</li>
+            <li><i class="icon-arrow-up"></i> icon-arrow-up</li>
+            <li><i class="icon-arrow-down"></i> icon-arrow-down</li>
+            <li><i class="icon-share-alt"></i> icon-share-alt</li>
+            <li><i class="icon-resize-full"></i> icon-resize-full</li>
+            <li><i class="icon-resize-small"></i> icon-resize-small</li>
+            <li><i class="icon-plus"></i> icon-plus</li>
+            <li><i class="icon-minus"></i> icon-minus</li>
+            <li><i class="icon-asterisk"></i> icon-asterisk</li>
+            <li><i class="icon-exclamation-sign"></i> icon-exclamation-sign</li>
+            <li><i class="icon-gift"></i> icon-gift</li>
+            <li><i class="icon-leaf"></i> icon-leaf</li>
+            <li><i class="icon-fire"></i> icon-fire</li>
+            <li><i class="icon-eye-open"></i> icon-eye-open</li>
+            <li><i class="icon-eye-close"></i> icon-eye-close</li>
+            <li><i class="icon-warning-sign"></i> icon-warning-sign</li>
+            <li><i class="icon-plane"></i> icon-plane</li>
+            <li><i class="icon-calendar"></i> icon-calendar</li>
+            <li><i class="icon-random"></i> icon-random</li>
+            <li><i class="icon-comment"></i> icon-comment</li>
+            <li><i class="icon-magnet"></i> icon-magnet</li>
+
+            <li><i class="icon-chevron-up"></i> icon-chevron-up</li>
+            <li><i class="icon-chevron-down"></i> icon-chevron-down</li>
+            <li><i class="icon-retweet"></i> icon-retweet</li>
+            <li><i class="icon-shopping-cart"></i> icon-shopping-cart</li>
+            <li><i class="icon-folder-close"></i> icon-folder-close</li>
+            <li><i class="icon-folder-open"></i> icon-folder-open</li>
+            <li><i class="icon-resize-vertical"></i> icon-resize-vertical</li>
+            <li><i class="icon-resize-horizontal"></i> icon-resize-horizontal</li>
+            <li><i class="icon-hdd"></i> icon-hdd</li>
+            <li><i class="icon-bullhorn"></i> icon-bullhorn</li>
+            <li><i class="icon-bell"></i> icon-bell</li>
+            <li><i class="icon-certificate"></i> icon-certificate</li>
+            <li><i class="icon-thumbs-up"></i> icon-thumbs-up</li>
+            <li><i class="icon-thumbs-down"></i> icon-thumbs-down</li>
+            <li><i class="icon-hand-right"></i> icon-hand-right</li>
+            <li><i class="icon-hand-left"></i> icon-hand-left</li>
+            <li><i class="icon-hand-up"></i> icon-hand-up</li>
+            <li><i class="icon-hand-down"></i> icon-hand-down</li>
+            <li><i class="icon-circle-arrow-right"></i> icon-circle-arrow-right</li>
+            <li><i class="icon-circle-arrow-left"></i> icon-circle-arrow-left</li>
+            <li><i class="icon-circle-arrow-up"></i> icon-circle-arrow-up</li>
+            <li><i class="icon-circle-arrow-down"></i> icon-circle-arrow-down</li>
+            <li><i class="icon-globe"></i> icon-globe</li>
+            <li><i class="icon-wrench"></i> icon-wrench</li>
+            <li><i class="icon-tasks"></i> icon-tasks</li>
+            <li><i class="icon-filter"></i> icon-filter</li>
+            <li><i class="icon-briefcase"></i> icon-briefcase</li>
+            <li><i class="icon-fullscreen"></i> icon-fullscreen</li>
+          </ul>
+
+          <h3>Glyphicons attribution</h3>
+          <p><a href="http://glyphicons.com/">Glyphicons</a> Halflings are normally not available for free, but an arrangement between Bootstrap and the Glyphicons creators have made this possible at no cost to you as developers. As a thank you, we ask you to include an optional link back to <a href="http://glyphicons.com/">Glyphicons</a> whenever practical.</p>
+
+
+          <hr class="bs-docs-separator">
+
+
+          <h2>How to use</h2>
+          <p>All icons require an <code>&lt;i&gt;</code> tag with a unique class, prefixed with <code>icon-</code>. To use, place the following code just about anywhere:</p>
+<pre class="prettyprint linenums">
+&lt;i class="icon-search"&gt;&lt;/i&gt;
+</pre>
+          <p>There are also styles available for inverted (white) icons, made ready with one extra class. We will specifically enforce this class on hover and active states for nav and dropdown links.</p>
+<pre class="prettyprint linenums">
+&lt;i class="icon-search icon-white"&gt;&lt;/i&gt;
+</pre>
+          <p>
+            <span class="label label-info">Heads up!</span>
+            When using beside strings of text, as in buttons or nav links, be sure to leave a space after the <code>&lt;i&gt;</code> tag for proper spacing.
+          </p>
+
+
+          <hr class="bs-docs-separator">
+
+
+          <h2>Icon examples</h2>
+          <p>Use them in buttons, button groups for a toolbar, navigation, or prepended form inputs.</p>
+
+          <h4>Buttons</h4>
+
+          <h5>Button group in a button toolbar</h5>
+          <div class="bs-docs-example">
+            <div class="btn-toolbar">
+              <div class="btn-group">
+                <a class="btn" href="#"><i class="icon-align-left"></i></a>
+                <a class="btn" href="#"><i class="icon-align-center"></i></a>
+                <a class="btn" href="#"><i class="icon-align-right"></i></a>
+                <a class="btn" href="#"><i class="icon-align-justify"></i></a>
+              </div>
+            </div>
+          </div>
+<pre class="prettyprint linenums">
+&lt;div class="btn-toolbar"&gt;
+  &lt;div class="btn-group"&gt;
+
+    &lt;a class="btn" href="#"&gt;&lt;i class="icon-align-left"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="btn" href="#"&gt;&lt;i class="icon-align-center"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="btn" href="#"&gt;&lt;i class="icon-align-right"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class="btn" href="#"&gt;&lt;i class="icon-align-justify"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+          <h5>Dropdown in a button group</h5>
+          <div class="bs-docs-example">
+            <div class="btn-group">
+              <a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i> User</a>
+              <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+                <li><a href="#"><i class="icon-trash"></i> Delete</a></li>
+                <li><a href="#"><i class="icon-ban-circle"></i> Ban</a></li>
+                <li class="divider"></li>
+                <li><a href="#"><i class="i"></i> Make admin</a></li>
+              </ul>
+            </div>
+          </div>
+<pre class="prettyprint linenums">
+&lt;div class="btn-group"&gt;
+  &lt;a class="btn btn-primary" href="#"&gt;&lt;i class="icon-user icon-white"&gt;&lt;/i&gt; User&lt;/a&gt;
+  &lt;a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"&gt;&lt;span class="caret"&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;ul class="dropdown-menu"&gt;
+    &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-pencil"&gt;&lt;/i&gt; Edit&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-trash"&gt;&lt;/i&gt; Delete&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-ban-circle"&gt;&lt;/i&gt; Ban&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="divider"&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;&lt;i class="i"&gt;&lt;/i&gt; Make admin&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</pre>
+
+          <h5>Button sizes</h5>
+          <div class="bs-docs-example">
+            <a class="btn btn-large" href="#"><i class="icon-star"></i> Star</a>
+            <a class="btn btn-small" href="#"><i class="icon-star"></i> Star</a>
+            <a class="btn btn-mini" href="#"><i class="icon-star"></i> Star</a>
+          </div>
+<pre class="prettyprint linenums">
+&lt;a class="btn btn-large" href="#"&gt;&lt;i class="icon-star"&gt;&lt;/i&gt; Star&lt;/a&gt;
+&lt;a class="btn btn-small" href="#"&gt;&lt;i class="icon-star"&gt;&lt;/i&gt; Star&lt;/a&gt;
+&lt;a class="btn btn-mini" href="#"&gt;&lt;i class="icon-star"&gt;&lt;/i&gt; Star&lt;/a&gt;
+</pre>
+
+          <h4>Navigation</h4>
+          <div class="bs-docs-example">
+            <div class="well" style="padding: 8px 0; margin-bottom: 0;">
+              <ul class="nav nav-list">
+                <li class="active"><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
+                <li><a href="#"><i class="icon-book"></i> Library</a></li>
+                <li><a href="#"><i class="icon-pencil"></i> Applications</a></li>
+                <li><a href="#"><i class="i"></i> Misc</a></li>
+              </ul>
+            </div>
+          </div>
+<pre class="prettyprint linenums">
+&lt;ul class="nav nav-list"&gt;
+  &lt;li class="active"&gt;&lt;a href="#"&gt;&lt;i class="icon-home icon-white"&gt;&lt;/i&gt; Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-book"&gt;&lt;/i&gt; Library&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="icon-pencil"&gt;&lt;/i&gt; Applications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;&lt;i class="i"&gt;&lt;/i&gt; Misc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
+          <h4>Form fields</h4>
+          <form class="bs-docs-example form-horizontal">
+            <div class="control-group">
+              <label class="control-label" for="inputIcon">Email address</label>
+              <div class="controls">
+                <div class="input-prepend">
+                  <span class="add-on"><i class="icon-envelope"></i></span><input class="span2" id="inputIcon" type="text">
+                </div>
+              </div>
+            </div>
+          </form>
+<pre class="prettyprint linenums">
+&lt;div class="control-group"&gt;
+  &lt;label class="control-label" for="inputIcon"&gt;Email address&lt;/label&gt;
+  &lt;div class="controls"&gt;
+    &lt;div class="input-prepend"&gt;
+      &lt;span class="add-on"&gt;&lt;i class="icon-envelope"&gt;&lt;/i&gt;&lt;/span&gt;
+      &lt;input class="span2" id="inputIcon" type="text"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+        </section>
+
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p>Designed and built with all the love in the world by <a href="https://wrapbootstrap.com/user/Ahmedeabbas" target="_blank">Coyier</a> .</p>
+      </div>
+    </footer>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
+
+    <script src="assets/js/holder/holder.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+
+    <script src="assets/js/application.js"></script>
+
+
+
+  </body>
+</html>
