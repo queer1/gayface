@@ -24,7 +24,8 @@ group :assets do
 end
 
 gem 'jquery-rails', '~> 2.0.0'
-gem "flexslider", "~> 2.0.2"
+gem 'flexslider', :git => 'https://github.com/constantm/Flexslider-2-Rails-Gem.git'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

@@ -2,30 +2,15 @@
 Style
 */
 
-@font-face {
-	font-family: 'tommasoregular';
-	src: url('tommaso-font/tommaso-webfont.eot');
-	src: url('tommaso-font/tommaso-webfont.eot?#iefix') format('embedded-opentype'),  url('tommaso-font/tommaso-webfont.woff') format('woff'),  url('tommaso-font/tommaso-webfont.ttf') format('truetype'),  url('tommaso-font/tommaso-webfont.svg#tommasoregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'SourceSansProRegular';
-	src: url('source-sans-pro/SourceSansPro-Regular-webfont.eot');
-	src: url('source-sans-pro/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),  url('source-sans-pro/SourceSansPro-Regular-webfont.woff') format('woff'),  url('source-sans-pro/SourceSansPro-Regular-webfont.ttf') format('truetype'),  url('source-sans-pro/SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'SourceSansProItalic';
-	src: url('source-sans-pro/SourceSansPro-It-webfont.eot');
-	src: url('source-sans-pro/SourceSansPro-It-webfont.eot?#iefix') format('embedded-opentype'),  url('source-sans-pro/SourceSansPro-It-webfont.woff') format('woff'),  url('source-sans-pro/SourceSansPro-It-webfont.ttf') format('truetype'),  url('source-sans-pro/SourceSansPro-It-webfont.svg#SourceSansProItalic') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:100,300);
+/*sans-serif fonts*/
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(http://fonts.googleapis.com/css?family=Text+Me+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic);
 /**selection text**/
 ::selection {
-	background: #F96E5B;
+	background: white;
 	color: #fff;
 }
 
@@ -40,7 +25,7 @@ Style
 }
 /**text**/
 body {
-	font-family: "SourceSansProRegular";
+	font-family: "Josefin Sans";
 }
 body a {
 	-webkit-transition: color 0.3s ease;
@@ -54,14 +39,14 @@ body a {
 	margin-bottom: 40px;
 }
 .TitleSection h1 {
-	font-family: 'Kelly Slab', cursive !important;
+	font-family: 'Josefin Sans', cursive !important;
 	font-size: 40px;
 }
 .page-head:before {
 	bottom: -1px;
 }
 .page-head:before {
-	background: none repeat scroll 0 0 #F96E5B;
+	background: none repeat scroll 0 0 white;
 	content: "";
 	display: block;
 	height: 2px;

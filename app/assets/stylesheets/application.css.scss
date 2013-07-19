@@ -11,17 +11,10 @@
 
 
  *= require ../prettyparallax/css/bootstrap.css
- *= require ../prettyparallax/css/style.css
- *= require ../prettyparallax/css/reset.css
- *= require ../prettyparallax/css/parallax_style_1.1.3.css
- *= require ../prettyparallax/css/services_slider/lean-slider.css
  *= require ../prettyparallax/css/grid.css
  *= require flexslider.css
- *= require ../prettyparallax/css/portfolio_gallery.css
- *= require ../prettyparallax/css/font-awesome.css
- *= require ../prettyparallax/css/jquery.classybox.css
- *= require ../prettyparallax/css/elastislide.css
  *= require_tree .
  *= require_self
+ *= require main.css 
  */
 

@@ -1,62 +1,52 @@
 <% content_for :body do %>
 
-  <!-- Gallery Section-->
-<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">  
-  <div class="rg-image-wrapper">
-    {{if itemsCount > 1}}
-      <div class="rg-image-nav">
-        <a href="#" class="rg-image-nav-prev">Previous Image</a>
-        <a href="#" class="rg-image-nav-next">Next Image</a>
-      </div>
-    {{/if}}
-    <div class="rg-image"></div>
-    <div class="rg-loading"></div>
-    <div class="rg-caption-wrapper">
-      <div class="rg-caption" style="display:none;">
-        <p></p>
-      </div>
-    </div>
-  </div>
-</script>
-
-
-<body class="clearfix" data-spy="scroll" data-target="#navbar" data-offset="10">
   
-  <div class="container-fluid clearfix welcome">
-    <div class="row-fluid">
-      <div id="welcome">
-        <div class="container-fluid clearfix" style="padding:0; overflow:hidden">
-          <div class="theme-default">
-            <div class="flexslider">
-            <ul class= "slides">          
+<div class="container-fluid clearfix welcome">
+  <div class="row-fluid">
+    <div id="welcome">
+      <div class="container-fluid clearfix" style="padding:0; overflow:hidden">
+        <div class="flexslider">
+          <ul class="slides"> 
               
-                <% @gayface_users.each do |gayface_user| %>
-              
-                <%= image_fu gayface_user.gayface_photo, '1562x1037', :style => "visibility: hidden", :style => "display: inline" %> 
+            
+              <% @gayface_users.each do |gayface_user| %>
+            
+            <div class="carousel-image">
+              <%= link_to (image_fu gayface_user.gayface_photo, '1562x1037', :style => "visibility: hidden", :style => "display: inline"), refinery.gayface_users_gayface_user_path(gayface_user) %> 
+              <div class="carousel-label">
+              <%=gayface_user.first_name %> <%=gayface_user.last_name.chars.first %>
+              <br>
+              <br>
+              <%=gayface_user.city %>, <%=gayface_user.state %>
+              </div>
+            </div>
+            
 
-            <!--     <img src="" alt class="ib-preview-img" style="display: block; width: 1562px; height: 1037px; left: 0px; top: -381px;">
-           -->
-                <!-- <a href=" --><%#= refinery.gayface_users_gayface_user_path(gayface_user) %><!-- " class="ib-image"> <%= image_fu (gayface_user.gayface_photo)%>  -->
-            <!--     <span class="ib-preview-descr" style> --><%#=gayface_user.first_name %> <!-- </span> -->
-            <!--     </a>  -->
-                <% end %>
-                <% end %>
-                </ul>
-                <div class="ib-nav" style>
-                  <span class="ib-nav-prev"> Previous </span>
-                  <span class="ib-nav-next"> Next </span>
-                </div>
+          <!--     <img src="" alt class="ib-preview-img" style="display: block; width: 1562px; height: 1037px; left: 0px; top: -381px;">
+         -->
+              <!-- <a href=" --><%#= refinery.gayface_users_gayface_user_path(gayface_user) %><!-- " class="ib-image"> <%= image_fu (gayface_user.gayface_photo)%>  -->
+          <!--     <span class="ib-preview-descr" style> --><%#=gayface_user.first_name %> <!-- </span> -->
+          <!--     </a>  -->
+               
 
-             
+              <% end %>
+              <% end %>
+          </ul>
 
-             
-         
-          </div>
+    
+              <div class="ib-nav" style>
+                <span class="ib-nav-prev"> Previous </span>
+                <span class="ib-nav-next"> Next </span>
+              </div>
+
+           
+
+           
         </div>
       </div>
     </div>
   </div>
-</body>
+</div>
 
               
                     

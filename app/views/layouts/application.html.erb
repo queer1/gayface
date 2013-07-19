@@ -20,9 +20,11 @@
     <%= site_bar -%>
     <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
     <div id="page_container">
+      <div class="nav-bar">
       <header id="header">
         <%= render :partial => 'layouts/header' %>
       </header>
+    </div>
       <section id="page">
         <%= yield %>
       </section>
