@@ -1,50 +1,49 @@
 <% content_for :body do %>
 
-  
-<div class="container-fluid clearfix welcome">
-  <div class="row-fluid">
-    <div id="welcome">
-      <div class="container-fluid clearfix" style="padding:0; overflow:hidden">
-        <div class="flexslider">
-          <ul class="slides"> 
-              
-            
-              <% @gayface_users.each do |gayface_user| %>
-            
-            <div class="carousel-image">
-              <%= link_to (image_fu gayface_user.gayface_photo, '1562x1037', :style => "visibility: hidden", :style => "display: inline"), refinery.gayface_users_gayface_user_path(gayface_user) %> 
-              <div class="carousel-label">
-              <%=gayface_user.first_name %> <%=gayface_user.last_name.chars.first %>
-              <br>
-              <br>
-              <%=gayface_user.city %>, <%=gayface_user.state %>
-              </div>
-            </div>
-            
-
-          <!--     <img src="" alt class="ib-preview-img" style="display: block; width: 1562px; height: 1037px; left: 0px; top: -381px;">
-         -->
-              <!-- <a href=" --><%#= refinery.gayface_users_gayface_user_path(gayface_user) %><!-- " class="ib-image"> <%= image_fu (gayface_user.gayface_photo)%>  -->
-          <!--     <span class="ib-preview-descr" style> --><%#=gayface_user.first_name %> <!-- </span> -->
-          <!--     </a>  -->
-               
-
-              <% end %>
-              <% end %>
+<div class="fullscreen_block"> 
+<!-- FILTER BLOCK -->
+  <div class="filter_block">
+    <div class="filter_navigation">
+      <ul id="options" class="splitter">
+        <li>
+          <ul data-option-key="filter" class="optionset">
+            <li class="selected">Location 1 </li>
+            <li class="selected">Location 2 </li>
           </ul>
-
-    
-              <div class="ib-nav" style>
-                <span class="ib-nav-prev"> Previous </span>
-                <span class="ib-nav-next"> Next </span>
-              </div>
-
-           
-
-           
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- END FILTER BLOCK -->
+  <div class="flexslider">
+    <ul class="slides"> 
+            
+    <% @gayface_users.each do |gayface_user| %>
+          
+      <div class="carousel-image">
+        <%= link_to (image_fu gayface_user.gayface_photo, '1562x1037', :style => "visibility: hidden", :style => "display: inline"), refinery.gayface_users_gayface_user_path(gayface_user) %> 
+        <div class="carousel-label">
+        <%=gayface_user.first_name %> <%=gayface_user.last_name.chars.first %>
+        <br>
+        <br>
+        <%=gayface_user.city %>, <%=gayface_user.state %>
         </div>
       </div>
-    </div>
+      
+
+      <!--     <img src="" alt class="ib-preview-img" style="display: block; width: 1562px; height: 1037px; left: 0px; top: -381px;">
+     -->
+          <!-- <a href=" --><%#= refinery.gayface_users_gayface_user_path(gayface_user) %><!-- " class="ib-image"> <%= image_fu (gayface_user.gayface_photo)%>  -->
+      <!--     <span class="ib-preview-descr" style> --><%#=gayface_user.first_name %> <!-- </span> -->
+      <!--     </a>  -->
+           
+
+        <% end %>
+        <% end %>
+    </ul>
+
+  
+   
   </div>
 </div>
 

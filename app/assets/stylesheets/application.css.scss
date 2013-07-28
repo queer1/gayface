@@ -8,13 +8,17 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
-
-
- *= require ../prettyparallax/css/bootstrap.css
- *= require ../prettyparallax/css/grid.css
- *= require flexslider.css
- *= require_tree .
+ *= require bootstrap
+ *= require bootstrap-responsive
+ *= require plugins
+ *= require theme
+ *= require responsive
+ *= require theme_settings
+ *= require skin
+ *= require color_theme
+ *= require 960
+ *= require fs_gallery
+ *= require ie_css
+ *= require rs-settings
  *= require_self
- *= require main.css 
  */
-

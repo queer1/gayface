@@ -16,15 +16,15 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'twitter-bootstrap-rails'
+  gem 'jquery-rails', '~> 2.0.0'
+  gem 'flexslider', :git => 'https://github.com/constantm/Flexslider-2-Rails-Gem.git'
+  gem 'refinerycms-bootstrap'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
 end
-
-gem 'jquery-rails', '~> 2.0.0'
-gem 'flexslider', :git => 'https://github.com/constantm/Flexslider-2-Rails-Gem.git'
 
 
 # To use ActiveModel has_secure_password
