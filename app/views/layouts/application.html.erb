@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
 <head>
 
@@ -57,3 +58,61 @@
 </footer>
 </body>
 </html>
+=======
+<html>
+<!-- HEAD -->
+<head>
+ <!-- start: Meta -->
+<meta charset="utf-8">
+<title>Gayface</title> 
+<meta name="description" content="Gayface"/>
+<meta name="keywords" content="Gayface" />
+<meta name="author" content="Designed and Developed for Gayface by Samantha Radocchia aka iamsamsterdam. The Machine Elf, LLC."/>
+
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+<%= render '/refinery/html_tag' %>
+  <% site_bar = render('/refinery/site_bar', :head => true) -%>
+  <%= render '/refinery/head' %>
+</head>
+
+<!-- BODY -->
+<body>
+  <%= site_bar -%>
+  <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
+  <header class> 
+  <div class="header_wrapper container">
+  <%= link_to Refinery::Core.site_name, refinery.root_path, :class => "logo" %> 
+<!-- NAV BAR -->
+    <nav>
+      <ul class="menu">
+<!--         <li class="has-menu level1">Home</li> -->
+        <li class="current-menu-parent has-menu level1">Gallery</li>
+        <li class="has-menu level1">Locations</li>
+        <li class="has-menu level1">Tour/Events/Media</li>
+        <li class="has-menu level1">About/Contact</li>
+        <li class="has-menu level1">Forum</li>
+        <li class="has-menu level1">Shop</li>  
+      </ul>
+      <div class="clear"> </div>
+    </nav>
+  </div>
+  </header>
+
+<!-- PAGE CONTENT   -->
+  <section id="page">
+    <%= yield %>
+  </section>
+
+<!-- FOOTER -->
+  <footer>
+    <%= render '/refinery/footer' -%>
+  </footer>
+
+<%= render '/refinery/javascripts' %>
+
+</body>
+</html>
+>>>>>>> prettydesign

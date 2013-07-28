@@ -1,0 +1,110 @@
+header,
+footer {
+	background:#ffffff;
+}
+.fullscreen_title {
+	background:#ffffff;
+}
+.fullscreen_layout header {
+	background:#ffffff;
+}
+.glass_header header,
+.fs_title_wrapper {
+	background:#ffffff;
+	background:rgba(255,255,255,0.9);
+}
+
+.fs_gallery_container {
+	background:#4f4d57;
+}
+header ul.menu > li > a {
+	color:#46434e;
+}
+
+.featured_slider .item .ico_gallery,
+.gallery_item .ico_gallery,
+.columns1 .element:hover .post_link,
+.fs_blog_module .blog_item  .featured_image_full .ico_gallery,
+.fs_grid_module .grid_gallery-item .item_hover-img a.post_link {
+	background-image:url(../img/frame_icons.png);
+	background-position:-480px -180px;
+}
+.fs_grid_module .grid_gallery-item .item_hover-img a.prettyPhoto,
+.columns1 .element:hover .prettyPhoto {
+	background-image:url(../img/frame_icons.png);
+	background-position:-540px -180px;
+}
+/*.fullscreen_block .gallery_item .gallery_descr,*/
+.module_line.faded:before {
+	background:#2a282f;
+}
+
+.pre_footer {
+	background:#46434e;
+}
+
+.fs_blog_module {
+	background:#46434e;
+}
+
+.fs_title_wrapper h1,
+.fs_title_wrapper h6 {
+	color:#46434e;
+}
+
+#footer_bar .twitter_list li a {
+	color:#ffffff;
+}
+
+#footer_bar .bg_title h1, 
+#footer_bar .bg_title h2, 
+#footer_bar .bg_title h3, 
+#footer_bar .bg_title h4, 
+#footer_bar .bg_title h5, 
+#footer_bar .bg_title h6 {
+	color:#ffffff;
+}
+footer .copyright {
+	color:#6e6c74;
+}
+.pre_footer, .pre_footer p, .pre_footer span, .pre_footer div, .pre_footer label {
+	color:#cac7d4;
+}
+#footer_bar .recent_posts_content .post_title {
+	color:#ffffff!important;
+}
+#footer_bar .widget_mailchimpsf_widget .mc_submit {
+	background:#cac7d4;
+	color:#46434e!important;
+}
+#footer_bar .widget_mailchimpsf_widget .mc_input {
+	background:#6b6971;
+	color:#ffffff;
+}
+
+.module_line .shortcode_promoblock h3,
+.module_line .shortcode_promoblock h6 {
+	color:#ffffff;
+}
+
+.fullscreen_block {
+	background:#ffffff;
+}
+
+.fullscreen_title h1 {
+	color:#46434e;
+}
+.fullscreen_block .filter_block {
+	background:#2a282f	;
+	background:rgba(42,40,47,0.9);
+}
+.fullscreen_block .filter_block li a {
+	color:#ffffff!important;
+}
+
+.mobile_menu {
+	padding:15px 0 25px 0!important;
+}
+.mobile_menu_wrapper {
+	background:#2a282f;
+}

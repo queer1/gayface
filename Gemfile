@@ -15,7 +15,14 @@ end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+<<<<<<< HEAD
   gem 'bootstrap-sass', '~> 2.3.2.0'
+=======
+  gem 'twitter-bootstrap-rails'
+  gem 'jquery-rails', '~> 2.0.0'
+  gem 'flexslider', :git => 'https://github.com/constantm/Flexslider-2-Rails-Gem.git'
+  gem 'refinerycms-bootstrap'
+>>>>>>> prettydesign
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -23,8 +30,11 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+<<<<<<< HEAD
 gem 'jquery-rails', '~> 2.0.0'
 gem 'jquery-ui-rails'
+=======
+>>>>>>> prettydesign
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
